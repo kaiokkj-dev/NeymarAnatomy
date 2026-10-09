@@ -1,0 +1,696 @@
+{
+  "review_date": "2026-10-09",
+  "team": "Santos",
+  "catalog_goals": 157,
+  "reference_goals": 160,
+  "independently_matched_commentary_goals": 21,
+  "counts": {
+    "right": 57,
+    "left": 22,
+    "head": 6,
+    "other": 1,
+    "unknown": 71
+  },
+  "changes": [
+    {
+      "source_event_id": "tm:4385014:3:0",
+      "date": "2009-03-15",
+      "minute": 73,
+      "previous_body_part": "unknown",
+      "body_part": "head",
+      "source_url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/neymar-completa-10-anos-de-primeiro-gol-pelo-santos-e-inicio-de-trajetoria-artilheira-no-profissional.ghtml",
+      "evidence": "Finalizacao de peixinho"
+    },
+    {
+      "source_event_id": "tm:4359453:2:0",
+      "date": "2012-04-22",
+      "minute": 71,
+      "previous_body_part": "unknown",
+      "body_part": "left",
+      "source_url": "https://ge.globo.com/jogo/paulista-2012/22-04-2012/santos-mogi-mirim.html",
+      "evidence": "Finalizou de esquerda"
+    },
+    {
+      "source_event_id": "tm:4509508:1:0",
+      "date": "2025-02-16",
+      "minute": 14,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/724143",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:4509522:0:2",
+      "date": "2025-02-23",
+      "minute": 27,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/724162",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:4568129:1:0",
+      "date": "2025-03-02",
+      "minute": 9,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/733699",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:4582173:1:0",
+      "date": "2025-07-16",
+      "minute": 84,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/732724",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:4582270:3:1",
+      "date": "2025-08-04",
+      "minute": 80,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/732767",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:4726126:1:0",
+      "date": "2025-11-19",
+      "minute": 4,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/732924",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:4726146:1:0",
+      "date": "2025-11-28",
+      "minute": 25,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/732947",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:4726162:0:2",
+      "date": "2025-12-03",
+      "minute": 65,
+      "previous_body_part": "unknown",
+      "body_part": "left",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/732959",
+      "evidence": "left footed shot"
+    },
+    {
+      "source_event_id": "tm:4726162:0:3",
+      "date": "2025-12-03",
+      "minute": 73,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/732959",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:4811009:1:0",
+      "date": "2026-02-26",
+      "minute": 25,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/401841002",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:4810979:1:1",
+      "date": "2026-03-18",
+      "minute": 56,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/401841031",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:4857703:1:0",
+      "date": "2026-04-14",
+      "minute": 4,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/401865396",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:4811049:1:0",
+      "date": "2026-05-10",
+      "minute": 50,
+      "previous_body_part": "unknown",
+      "body_part": "left",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/401841109",
+      "evidence": "left footed shot"
+    },
+    {
+      "source_event_id": "tm:4810859:2:2",
+      "date": "2026-07-25",
+      "minute": 89,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/401841161",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:4810769:1:2",
+      "date": "2026-10-08",
+      "minute": 82,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/401841251",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:4810769:2:2",
+      "date": "2026-10-08",
+      "minute": 88,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/401841251",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:1099805:1:0",
+      "date": "2011-05-18",
+      "minute": 11,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://ge.globo.com/jogo/libertadores-2011/18-05-2011/santos-once-caldas.html",
+      "evidence": "Chute forte de direita"
+    },
+    {
+      "source_event_id": "tm:4354818:1:0",
+      "date": "2012-02-05",
+      "minute": 70,
+      "previous_body_part": "unknown",
+      "body_part": "head",
+      "source_url": "https://ge.globo.com/jogo/paulista-2012/05-02-2012/santos-palmeiras.html",
+      "evidence": "Gol de cabeca no segundo tempo"
+    },
+    {
+      "source_event_id": "tm:4355654:1:1",
+      "date": "2012-02-09",
+      "minute": 76,
+      "previous_body_part": "unknown",
+      "body_part": "head",
+      "source_url": "https://ge.globo.com/jogo/paulista-2012/09-02-2012/botafogo-sp-santos.html",
+      "evidence": "Cabeceou a cobranca de falta de Ganso"
+    },
+    {
+      "source_event_id": "tm:1183044:2:0",
+      "date": "2012-03-22",
+      "minute": 59,
+      "previous_body_part": "unknown",
+      "body_part": "left",
+      "source_url": "https://ge.globo.com/jogo/libertadores-2012/22-03-2012/santos-juan-aurich.html",
+      "evidence": "Finalizacao colocada de esquerda"
+    },
+    {
+      "source_event_id": "tm:1183048:2:0",
+      "date": "2012-04-19",
+      "minute": 88,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://ge.globo.com/jogo/libertadores-2012/19-04-2012/santos-the-strongest.html",
+      "evidence": "Deslocou Vaca com toque de direita"
+    },
+    {
+      "source_event_id": "tm:4346248:1:3",
+      "date": "2013-02-10",
+      "minute": 90,
+      "previous_body_part": "unknown",
+      "body_part": "left",
+      "source_url": "https://ge.globo.com/jogo/campeonato-paulista-2013/10-02-2013/santos-paulista.html",
+      "evidence": "Chute com o pe esquerdo"
+    },
+    {
+      "source_event_id": "tm:4375948:3:0",
+      "date": "2010-03-10",
+      "minute": 28,
+      "previous_body_part": "unknown",
+      "body_part": "left",
+      "source_url": "https://www.gazetadopovo.com.br/esportes/santos-massacra-o-naviraiense-e-da-mais-um-show-na-vila-belmiro-10-a-0-ddysi93rfpa7qu2d688v11cni/",
+      "evidence": "Primeiro gol de Neymar: finalizou de esquerda"
+    },
+    {
+      "source_event_id": "tm:1006354:1:0",
+      "date": "2010-08-22",
+      "minute": 55,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://atarde.com.br/esportes/dorival-faz-elogios-e-exalta-permanencia-de-neymar-30225",
+      "evidence": "Penalti cobrado com o pe direito"
+    },
+    {
+      "source_event_id": "tm:4359457:3:2",
+      "date": "2012-05-13",
+      "minute": 71,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.foxsports.com/stories/soccer/neymar-steers-santos-to-state-title",
+      "evidence": "right-footed shot"
+    }
+  ],
+  "remaining_goals": [
+    {
+      "source_event_id": "tm:4374916:1:0",
+      "date": "2009-03-18",
+      "opponent": "Rio Branco Football Club (AC)",
+      "minute": 59
+    },
+    {
+      "source_event_id": "tm:4385066:3:0",
+      "date": "2009-03-25",
+      "opponent": "EC Santo André",
+      "minute": 66
+    },
+    {
+      "source_event_id": "tm:4397810:2:1",
+      "date": "2009-04-11",
+      "opponent": "Sociedade Esportiva Palmeiras",
+      "minute": 46
+    },
+    {
+      "source_event_id": "tm:4364838:0:2",
+      "date": "2010-01-17",
+      "opponent": "Rio Branco EC (SP)",
+      "minute": 20
+    },
+    {
+      "source_event_id": "tm:4364838:0:4",
+      "date": "2010-01-17",
+      "opponent": "Rio Branco EC (SP)",
+      "minute": 89
+    },
+    {
+      "source_event_id": "tm:4364944:4:0",
+      "date": "2010-01-27",
+      "opponent": "Grêmio Barueri Futebol Ltda.",
+      "minute": 78
+    },
+    {
+      "source_event_id": "tm:4364944:5:0",
+      "date": "2010-01-27",
+      "opponent": "Grêmio Barueri Futebol Ltda.",
+      "minute": 86
+    },
+    {
+      "source_event_id": "tm:4364952:2:0",
+      "date": "2010-01-30",
+      "opponent": "Oeste FC",
+      "minute": 92
+    },
+    {
+      "source_event_id": "tm:4364969:0:1",
+      "date": "2010-02-04",
+      "opponent": "EC Santo André",
+      "minute": 24
+    },
+    {
+      "source_event_id": "tm:4364975:0:1",
+      "date": "2010-02-07",
+      "opponent": "São Paulo Futebol Clube",
+      "minute": 38
+    },
+    {
+      "source_event_id": "tm:4375948:7:0",
+      "date": "2010-03-10",
+      "opponent": "Clube Esportivo Naviraiense (MS)",
+      "minute": 54
+    },
+    {
+      "source_event_id": "tm:4365047:2:0",
+      "date": "2010-03-14",
+      "opponent": "Sociedade Esportiva Palmeiras",
+      "minute": 30
+    },
+    {
+      "source_event_id": "tm:4375949:0:1",
+      "date": "2010-03-18",
+      "opponent": "Clube do Remo (PA)",
+      "minute": 21
+    },
+    {
+      "source_event_id": "tm:4375949:0:4",
+      "date": "2010-03-18",
+      "opponent": "Clube do Remo (PA)",
+      "minute": 81
+    },
+    {
+      "source_event_id": "tm:4365090:1:2",
+      "date": "2010-04-04",
+      "opponent": "AD São Caetano (SP)",
+      "minute": 67
+    },
+    {
+      "source_event_id": "tm:4375950:1:0",
+      "date": "2010-04-14",
+      "opponent": "Guarani Futebol Clube (SP)",
+      "minute": 2
+    },
+    {
+      "source_event_id": "tm:4366536:1:0",
+      "date": "2010-04-18",
+      "opponent": "São Paulo Futebol Clube",
+      "minute": 59
+    },
+    {
+      "source_event_id": "tm:4366536:2:0",
+      "date": "2010-04-18",
+      "opponent": "São Paulo Futebol Clube",
+      "minute": 84
+    },
+    {
+      "source_event_id": "tm:4366539:1:1",
+      "date": "2010-04-25",
+      "opponent": "EC Santo André",
+      "minute": 7
+    },
+    {
+      "source_event_id": "tm:4366539:2:2",
+      "date": "2010-04-25",
+      "opponent": "EC Santo André",
+      "minute": 32
+    },
+    {
+      "source_event_id": "tm:4282768:2:0",
+      "date": "2010-05-05",
+      "opponent": "Clube Atlético Mineiro",
+      "minute": 44
+    },
+    {
+      "source_event_id": "tm:1003487:1:1",
+      "date": "2010-05-16",
+      "opponent": "Ceará Sporting Club",
+      "minute": 38
+    },
+    {
+      "source_event_id": "tm:1050957:1:1",
+      "date": "2010-08-25",
+      "opponent": "Grêmio Foot-Ball Porto Alegrense",
+      "minute": 68
+    },
+    {
+      "source_event_id": "tm:1009320:2:1",
+      "date": "2010-09-22",
+      "opponent": "Sport Club Corinthians Paulista",
+      "minute": 27
+    },
+    {
+      "source_event_id": "tm:1009379:3:3",
+      "date": "2010-10-17",
+      "opponent": "São Paulo Futebol Clube",
+      "minute": 70
+    },
+    {
+      "source_event_id": "tm:1009447:1:2",
+      "date": "2010-11-21",
+      "opponent": "Goiás EC",
+      "minute": 75
+    },
+    {
+      "source_event_id": "tm:1093810:0:1",
+      "date": "2011-08-21",
+      "opponent": "Esporte Clube Bahia",
+      "minute": 3
+    },
+    {
+      "source_event_id": "tm:1143544:1:0",
+      "date": "2011-10-19",
+      "opponent": "Botafogo de Futebol e Regatas",
+      "minute": 15
+    },
+    {
+      "source_event_id": "tm:1158423:0:1",
+      "date": "2011-10-23",
+      "opponent": "CR Flamengo",
+      "minute": 48
+    },
+    {
+      "source_event_id": "tm:1159408:1:0",
+      "date": "2011-10-29",
+      "opponent": "Atlético Paranaense",
+      "minute": 2
+    },
+    {
+      "source_event_id": "tm:1159408:2:1",
+      "date": "2011-10-29",
+      "opponent": "Atlético Paranaense",
+      "minute": 54
+    },
+    {
+      "source_event_id": "tm:1161141:1:0",
+      "date": "2011-11-06",
+      "opponent": "Clube de Regatas Vasco da Gama",
+      "minute": 3
+    },
+    {
+      "source_event_id": "tm:4355654:1:2",
+      "date": "2012-02-09",
+      "opponent": "Botafogo FC",
+      "minute": 78
+    },
+    {
+      "source_event_id": "tm:4355654:1:3",
+      "date": "2012-02-09",
+      "opponent": "Botafogo FC",
+      "minute": 88
+    },
+    {
+      "source_event_id": "tm:4355687:1:0",
+      "date": "2012-02-25",
+      "opponent": "Associação Atlética Ponte Preta",
+      "minute": 27
+    },
+    {
+      "source_event_id": "tm:4355687:6:1",
+      "date": "2012-02-25",
+      "opponent": "Associação Atlética Ponte Preta",
+      "minute": 77
+    },
+    {
+      "source_event_id": "tm:1183040:1:0",
+      "date": "2012-03-07",
+      "opponent": "Sport Club Internacional",
+      "minute": 19
+    },
+    {
+      "source_event_id": "tm:1183040:2:0",
+      "date": "2012-03-07",
+      "opponent": "Sport Club Internacional",
+      "minute": 54
+    },
+    {
+      "source_event_id": "tm:1183040:3:1",
+      "date": "2012-03-07",
+      "opponent": "Sport Club Internacional",
+      "minute": 65
+    },
+    {
+      "source_event_id": "tm:4356942:2:2",
+      "date": "2012-03-18",
+      "opponent": "São Paulo Futebol Clube",
+      "minute": 76
+    },
+    {
+      "source_event_id": "tm:4356967:1:0",
+      "date": "2012-03-29",
+      "opponent": "Guaratinguetá (SP)",
+      "minute": 3
+    },
+    {
+      "source_event_id": "tm:4356967:4:0",
+      "date": "2012-03-29",
+      "opponent": "Guaratinguetá (SP)",
+      "minute": 42
+    },
+    {
+      "source_event_id": "tm:4356967:5:0",
+      "date": "2012-03-29",
+      "opponent": "Guaratinguetá (SP)",
+      "minute": 87
+    },
+    {
+      "source_event_id": "tm:4356987:0:1",
+      "date": "2012-04-08",
+      "opponent": "AD São Caetano (SP)",
+      "minute": 31
+    },
+    {
+      "source_event_id": "tm:4356988:3:0",
+      "date": "2012-04-15",
+      "opponent": "Grêmio Catanduvense (SP)",
+      "minute": 63
+    },
+    {
+      "source_event_id": "tm:4359454:0:1",
+      "date": "2012-04-29",
+      "opponent": "São Paulo Futebol Clube",
+      "minute": 3
+    },
+    {
+      "source_event_id": "tm:4359454:0:2",
+      "date": "2012-04-29",
+      "opponent": "São Paulo Futebol Clube",
+      "minute": 31
+    },
+    {
+      "source_event_id": "tm:4359454:1:3",
+      "date": "2012-04-29",
+      "opponent": "São Paulo Futebol Clube",
+      "minute": 77
+    },
+    {
+      "source_event_id": "tm:4359456:0:2",
+      "date": "2012-05-06",
+      "opponent": "Guarani Futebol Clube (SP)",
+      "minute": 65
+    },
+    {
+      "source_event_id": "tm:4359456:0:3",
+      "date": "2012-05-06",
+      "opponent": "Guarani Futebol Clube (SP)",
+      "minute": 90
+    },
+    {
+      "source_event_id": "tm:2207469:2:0",
+      "date": "2012-05-10",
+      "opponent": "Bolívar La Paz",
+      "minute": 21
+    },
+    {
+      "source_event_id": "tm:4359457:2:1",
+      "date": "2012-05-13",
+      "opponent": "Guarani Futebol Clube (SP)",
+      "minute": 8
+    },
+    {
+      "source_event_id": "tm:2220165:0:1",
+      "date": "2012-06-20",
+      "opponent": "Sport Club Corinthians Paulista",
+      "minute": 36
+    },
+    {
+      "source_event_id": "tm:2206716:1:1",
+      "date": "2012-08-16",
+      "opponent": "Figueirense Futebol Clube",
+      "minute": 51
+    },
+    {
+      "source_event_id": "tm:2206699:1:1",
+      "date": "2012-08-25",
+      "opponent": "Sociedade Esportiva Palmeiras",
+      "minute": 44
+    },
+    {
+      "source_event_id": "tm:2206629:1:1",
+      "date": "2012-09-16",
+      "opponent": "Coritiba Foot Ball Club",
+      "minute": 71
+    },
+    {
+      "source_event_id": "tm:2206629:1:2",
+      "date": "2012-09-16",
+      "opponent": "Coritiba Foot Ball Club",
+      "minute": 83
+    },
+    {
+      "source_event_id": "tm:2206565:2:0",
+      "date": "2012-10-17",
+      "opponent": "Clube Atlético Mineiro",
+      "minute": 11
+    },
+    {
+      "source_event_id": "tm:2206684:2:1",
+      "date": "2012-12-01",
+      "opponent": "Sociedade Esportiva Palmeiras",
+      "minute": 23
+    },
+    {
+      "source_event_id": "tm:4342465:0:1",
+      "date": "2013-01-19",
+      "opponent": "São Bernardo FC",
+      "minute": 20
+    },
+    {
+      "source_event_id": "tm:4342465:1:3",
+      "date": "2013-01-19",
+      "opponent": "São Bernardo FC",
+      "minute": 92
+    },
+    {
+      "source_event_id": "tm:4342475:2:0",
+      "date": "2013-01-23",
+      "opponent": "Botafogo FC",
+      "minute": 41
+    },
+    {
+      "source_event_id": "tm:4343331:2:2",
+      "date": "2013-01-27",
+      "opponent": "CA Bragantino ",
+      "minute": 91
+    },
+    {
+      "source_event_id": "tm:4343621:2:0",
+      "date": "2013-02-03",
+      "opponent": "São Paulo Futebol Clube",
+      "minute": 49
+    },
+    {
+      "source_event_id": "tm:4347571:0:1",
+      "date": "2013-03-31",
+      "opponent": "Oeste FC",
+      "minute": 67
+    },
+    {
+      "source_event_id": "tm:4347590:1:1",
+      "date": "2013-04-04",
+      "opponent": "AD São Caetano (SP)",
+      "minute": 53
+    },
+    {
+      "source_event_id": "tm:4347602:0:1",
+      "date": "2013-04-13",
+      "opponent": "União Barbarense FC (SP)",
+      "minute": 8
+    },
+    {
+      "source_event_id": "tm:4347602:0:2",
+      "date": "2013-04-13",
+      "opponent": "União Barbarense FC (SP)",
+      "minute": 27
+    },
+    {
+      "source_event_id": "tm:4347602:0:3",
+      "date": "2013-04-13",
+      "opponent": "União Barbarense FC (SP)",
+      "minute": 46
+    },
+    {
+      "source_event_id": "tm:4347602:0:4",
+      "date": "2013-04-13",
+      "opponent": "União Barbarense FC (SP)",
+      "minute": 51
+    },
+    {
+      "source_event_id": "tm:3828788:2:0",
+      "date": "2013-04-17",
+      "opponent": "EC Flamengo",
+      "minute": 85
+    }
+  ],
+  "reconciliation": {
+    "first_spell_catalog_goals": 136,
+    "first_spell_club_goals": 138,
+    "club_source_url": "https://hml.santosfc.com.br/assumindo-a-10-de-rei-pele-idolo-neymar-jr-esta-de-volta-ao-santos-fc/",
+    "note": "A diferenca de criterios na primeira passagem explica dois gols da diferenca agregada. Ainda falta reconciliar o terceiro; nao criar eventos sem partida e fonte."
+  },
+  "research_limitations": [
+    "Relatos antigos nem sempre especificam o membro da finalizacao. YouTube apresentou CAPTCHA e o video consultado no Globoplay nao reproduziu. Nao inferir a parte do corpo pelo lado da jogada ou pelo pe dominante."
+  ]
+}

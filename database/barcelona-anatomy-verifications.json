@@ -1,0 +1,246 @@
+{
+  "review_date": "2026-10-09",
+  "changes": [
+    {
+      "source_event_id": "tm:2341274:1:0",
+      "date": "2013-12-14",
+      "minute": 30,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/373066",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2475239:1:0",
+      "date": "2014-09-27",
+      "minute": 26,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/402573",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2475239:3:0",
+      "date": "2014-09-27",
+      "minute": 45,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/402573",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2475286:1:1",
+      "date": "2014-11-08",
+      "minute": 73,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/402521",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2475388:1:1",
+      "date": "2015-02-01",
+      "minute": 45,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/402428",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2475486:0:2",
+      "date": "2015-04-11",
+      "minute": 31,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/402321",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2475524:0:7",
+      "date": "2015-05-02",
+      "minute": 85,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/402280",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2594493:1:1",
+      "date": "2015-09-12",
+      "minute": 55,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/433953",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2594531:2:1",
+      "date": "2015-10-03",
+      "minute": 74,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/433907",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2594541:1:1",
+      "date": "2015-10-17",
+      "minute": 22,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/433905",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2594541:2:1",
+      "date": "2015-10-17",
+      "minute": 32,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/433905",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2618602:1:0",
+      "date": "2015-11-04",
+      "minute": 31,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/434209",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2594593:3:0",
+      "date": "2015-11-28",
+      "minute": 53,
+      "previous_body_part": "right",
+      "body_part": "left",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/433853",
+      "evidence": "left footed shot"
+    },
+    {
+      "source_event_id": "tm:2594712:1:2",
+      "date": "2016-02-20",
+      "minute": 39,
+      "previous_body_part": "unknown",
+      "body_part": "left",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/433727",
+      "evidence": "left footed shot"
+    },
+    {
+      "source_event_id": "tm:2594762:0:2",
+      "date": "2016-03-20",
+      "minute": 41,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/433679",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2594815:5:0",
+      "date": "2016-04-23",
+      "minute": 86,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/433635",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2754181:3:0",
+      "date": "2016-09-13",
+      "minute": 50,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/466256",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2718777:3:2",
+      "date": "2016-10-02",
+      "minute": 64,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/459016",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2810026:2:0",
+      "date": "2017-01-11",
+      "minute": 48,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/470807",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2814838:0:1",
+      "date": "2017-01-19",
+      "minute": 21,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/471745",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2718957:5:1",
+      "date": "2017-03-01",
+      "minute": 66,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/458841",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2805651:4:1",
+      "date": "2017-03-08",
+      "minute": 88,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/469090",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2805651:5:1",
+      "date": "2017-03-08",
+      "minute": 91,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/469090",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2719062:1:0",
+      "date": "2017-05-06",
+      "minute": 21,
+      "previous_body_part": "left",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/458732",
+      "evidence": "right footed shot"
+    }
+  ],
+  "unresolved_source_conflicts": [
+    {
+      "source_event_id": "tm:2594593:1:0",
+      "date": "2015-11-28",
+      "minute": 22,
+      "retained_body_part": "right",
+      "alternative_body_part": "left",
+      "alternative_source_url": "https://www.espn.com/soccer/commentary/_/gameId/433853",
+      "status": "needs visual review"
+    },
+    {
+      "source_event_id": "tm:2718925:0:2",
+      "date": "2017-02-11",
+      "minute": 40,
+      "retained_body_part": "right",
+      "alternative_body_part": "left",
+      "alternative_source_url": "https://www.espn.com/soccer/commentary/_/gameId/458863",
+      "status": "needs visual review"
+    }
+  ],
+  "corroboration": [
+    "https://www.messistats.com/en/detail/804/",
+    "https://www.worldfootball.net/report/primera-division-2016-2017-fc-barcelona-villarreal-cf/liveticker/"
+  ],
+  "note": "Counts classified in the catalog; two conflicting events still require visual review. Canonical minutes retained when sources differ by one minute."
+}

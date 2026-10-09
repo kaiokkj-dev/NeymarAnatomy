@@ -1,28 +1,452 @@
 <!doctype html>
 <html lang="pt-BR">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#101310"><title>Neymar Anatomy · O jogo, parte por parte</title><meta name="description" content="Explore os gols de Neymar por parte do corpo, time e período. Um perfil interativo de futebol."><link rel="icon" type="image/svg+xml" href="anatomy-mark.svg"><link rel="stylesheet" href="style.css"><script src="app.js" defer></script><script src="player2d.js" defer></script><script src="navigation.js" defer></script><script src="preferences.js" defer></script></head>
-<body>
-<header class="site-header"><div class="topbar">
-<a class="profile-brand" href="#overview" aria-label="Neymar Anatomy — início"><span class="profile-avatar" aria-hidden="true"></span><span class="profile-brand-text"><strong>Neymar Jr<span>Anatomy</span></strong><span class="profile-subtitle">Anatomia dos gols</span></span></a>
-<nav aria-label="Navegação principal"><a href="#overview" class="active" aria-current="location">Visão geral</a><a href="#anatomy">Anatomia</a><a href="#goals">Gols &amp; momentos</a></nav><div class="header-preferences"><button id="theme-toggle" type="button" aria-label="Ativar modo claro" title="Ativar modo claro"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l2 2m10 10l2 2M5 19l2-2M17 7l2-2"/></svg></button><div class="language-flags" role="group" aria-label="Idioma"><button type="button" data-language="pt" aria-label="Português" title="Português"><svg viewBox="0 0 28 18" aria-hidden="true"><path fill="#079447" d="M0 0h28v18H0z"/><path fill="#ffdf32" d="m14 2 11 7-11 7L3 9z"/><circle cx="14" cy="9" r="4.5" fill="#1b3689"/><path d="M10 7q4 0 8 4" stroke="white" stroke-width="1.1" fill="none"/></svg></button><button type="button" data-language="es" aria-label="Español" title="Español"><svg viewBox="0 0 28 18" aria-hidden="true"><path fill="#c9152a" d="M0 0h28v18H0z"/><path fill="#ffd744" d="M0 4.5h28v9H0z"/><path fill="#b92736" d="M7 7h3v4H7z"/><path fill="#d3ab35" d="M6 6h5v1H6z"/></svg></button><button type="button" data-language="en" aria-label="English" title="English"><svg viewBox="0 0 28 18" aria-hidden="true"><path fill="#203674" d="M0 0h28v18H0z"/><path d="m0 0 28 18M28 0 0 18" stroke="white" stroke-width="4"/><path d="m0 0 28 18M28 0 0 18" stroke="#cb233b" stroke-width="1.5"/><path d="M14 0v18M0 9h28" stroke="white" stroke-width="6"/><path d="M14 0v18M0 9h28" stroke="#cb233b" stroke-width="3"/></svg></button></div><select id="language" class="sr-only" tabindex="-1" aria-label="Idioma"><option value="pt">Português</option><option value="es">Español</option><option value="en">English</option></select></div>
-</div></header>
-<main>
-<section id="overview" class="career-overview" aria-labelledby="overview-title">
-<div class="overview-main">
-<div class="overview-heading"><div class="hero-identity"><div class="hero-portrait"><img src="neymar-avatar-real.png" alt="Retrato fotográfico de Neymar" width="104" height="104"></div><div><span class="overview-kicker">ANATOMY</span><h1 id="overview-title">NEYMAR <span>JR.</span></h1><p>Atacante · Brasil · Camisa 10</p></div></div><a class="current-club" href="https://www.santosfc.com.br/santos-fc-e-neymar-jr-renovam-contrato-ate-o-fim-de-2026/" target="_blank" rel="noopener noreferrer"><img src="club-santos-coroa.png" alt="Escudo do Santos" width="36" height="36"><span><small>CLUBE ATUAL</small><strong>Santos FC</strong></span><i></i></a></div>
-<div class="overview-stats"><div class="stats-topline"><span class="eyebrow">◎ VISÃO GERAL DOS GOLS</span><span id="base-badge" class="data-badge">CARREGANDO BASE</span></div><div class="overview-stat-grid"><div class="career-total"><span class="metric-label">GOLS NA BASE</span><strong id="overview-goals">—</strong><div id="overview-distribution" class="distribution-track" aria-label="Distribuição dos gols por parte do corpo"></div><div class="distribution-legend"><span><i class="legend-right"></i> Direito</span><span><i class="legend-left"></i> Esquerdo</span><span><i class="legend-head"></i> Cabeça</span></div></div><div class="overview-mini-grid"><a class="overview-mini" href="#goals"><span>Partidas na base</span><strong id="overview-matches">—</strong><small>Ver os registros ↗</small></a><a class="overview-mini" href="#goals"><span>Times na base</span><strong id="overview-teams">—</strong><small>Clubes e seleção ↗</small></a><button class="overview-mini mini-left" data-overview-part="left"><span>Gols com o pé esquerdo</span><strong id="overview-left">—</strong><small>Explorar região ↗</small></button><button class="overview-mini mini-head" data-overview-part="head"><span>Gols de cabeça</span><strong id="overview-head">—</strong><small>Explorar região ↗</small></button></div></div><div class="overview-bottom"><a class="anatomy-cta" href="#anatomy">Explorar anatomia <span>↗</span></a><span>Selecione uma parte. Explore os gols.</span></div><div id="status" class="overview-data-note" role="status">Carregando estatísticas…</div></div>
-</div></section>
-<section id="anatomy" class="anatomy" aria-label="Explore os gols por parte do corpo">
-<div class="player-area"><span class="watermark" aria-hidden="true">10</span><span class="vertical-label">NEYMAR DA SILVA SANTOS JÚNIOR</span><div class="player-frame"><img class="player" src="neymar-croacia-2022.png" alt="Neymar comemorando o gol contra a Croácia em 2022, recorte preparado por IA a partir de fotografia"><svg class="body-map" viewBox="0 160 1024 1200" aria-label="Cabeça e chuteiras selecionáveis"><path class="body-region" data-part="right" role="button" tabindex="0" aria-pressed="false" aria-label="Selecionar Pé direito" d="M 182,1114 L 197,1115 L 197,1116 L 200,1116 L 200,1117 L 203,1117 L 203,1118 L 209,1119 L 209,1120 L 215,1122 L 216,1124 L 220,1125 L 222,1128 L 224,1128 L 226,1131 L 228,1131 L 230,1134 L 232,1134 L 232,1135 L 235,1136 L 236,1138 L 238,1138 L 238,1139 L 240,1139 L 240,1140 L 246,1142 L 245,1144 L 243,1144 L 241,1147 L 239,1147 L 238,1149 L 236,1149 L 236,1150 L 234,1151 L 234,1153 L 233,1153 L 233,1155 L 232,1155 L 232,1157 L 231,1157 L 231,1159 L 230,1159 L 230,1161 L 229,1161 L 229,1163 L 228,1163 L 228,1165 L 227,1165 L 227,1167 L 226,1167 L 226,1169 L 225,1169 L 225,1171 L 224,1171 L 224,1173 L 223,1173 L 223,1181 L 224,1181 L 224,1184 L 225,1184 L 225,1187 L 226,1187 L 226,1191 L 227,1191 L 227,1194 L 228,1194 L 228,1197 L 229,1197 L 230,1204 L 231,1204 L 233,1210 L 235,1211 L 236,1215 L 238,1216 L 238,1217 L 232,1218 L 232,1219 L 230,1219 L 230,1220 L 227,1220 L 227,1221 L 225,1222 L 225,1225 L 228,1226 L 228,1227 L 237,1228 L 237,1229 L 239,1230 L 239,1234 L 238,1234 L 236,1237 L 233,1237 L 233,1236 L 229,1235 L 225,1230 L 221,1230 L 219,1233 L 217,1233 L 215,1236 L 213,1236 L 213,1237 L 212,1237 L 211,1239 L 209,1239 L 209,1240 L 203,1240 L 203,1241 L 200,1241 L 200,1242 L 199,1242 L 199,1240 L 196,1240 L 194,1244 L 191,1244 L 191,1245 L 185,1247 L 185,1248 L 182,1250 L 181,1253 L 177,1253 L 177,1254 L 174,1256 L 173,1260 L 172,1260 L 167,1266 L 164,1267 L 164,1269 L 163,1269 L 162,1272 L 159,1274 L 159,1276 L 157,1277 L 157,1279 L 154,1281 L 153,1284 L 153,1285 L 151,1286 L 150,1290 L 144,1295 L 144,1297 L 142,1298 L 142,1300 L 140,1301 L 140,1303 L 139,1303 L 135,1308 L 133,1308 L 132,1310 L 130,1310 L 130,1311 L 128,1311 L 128,1312 L 120,1312 L 120,1311 L 118,1311 L 118,1310 L 112,1305 L 112,1294 L 106,1292 L 106,1284 L 108,1283 L 108,1281 L 110,1281 L 110,1280 L 112,1279 L 111,1271 L 112,1271 L 112,1268 L 113,1268 L 113,1265 L 114,1265 L 114,1261 L 113,1261 L 113,1259 L 109,1256 L 109,1249 L 110,1249 L 111,1246 L 113,1246 L 113,1245 L 118,1245 L 118,1241 L 121,1240 L 121,1239 L 124,1237 L 124,1235 L 125,1235 L 125,1231 L 124,1231 L 124,1230 L 122,1229 L 122,1227 L 121,1227 L 122,1222 L 123,1222 L 125,1219 L 134,1219 L 134,1218 L 136,1217 L 136,1215 L 138,1214 L 139,1210 L 141,1209 L 142,1205 L 144,1204 L 145,1200 L 147,1199 L 147,1197 L 148,1197 L 148,1195 L 149,1195 L 149,1193 L 150,1193 L 150,1191 L 151,1191 L 151,1189 L 152,1189 L 152,1187 L 153,1187 L 153,1184 L 154,1184 L 154,1181 L 155,1181 L 156,1169 L 155,1169 L 155,1166 L 152,1164 L 151,1158 L 152,1158 L 153,1156 L 155,1156 L 155,1155 L 158,1154 L 158,1147 L 156,1146 L 156,1144 L 155,1144 L 154,1142 L 151,1141 L 152,1134 L 153,1134 L 154,1132 L 160,1132 L 160,1133 L 166,1132 L 166,1131 L 168,1130 L 168,1127 L 167,1127 L 167,1125 L 166,1125 L 166,1123 L 165,1123 L 166,1119 L 167,1119 L 169,1116 L 177,1117 L 177,1116 L 182,1115 L 182,1114 Z"><title>Pé direito</title></path>
-<path class="body-region" data-part="left" role="button" tabindex="0" aria-pressed="false" aria-label="Selecionar Pé esquerdo" d="M 475,982 L 478,983 L 479,985 L 481,985 L 482,987 L 484,987 L 485,989 L 487,989 L 488,991 L 492,992 L 493,994 L 495,994 L 496,996 L 498,996 L 498,997 L 501,998 L 502,1000 L 504,1000 L 504,1001 L 506,1001 L 506,1002 L 509,1002 L 509,1003 L 511,1003 L 511,1004 L 514,1004 L 514,1005 L 516,1005 L 516,1006 L 518,1006 L 518,1007 L 521,1007 L 521,1008 L 523,1008 L 523,1009 L 526,1009 L 526,1010 L 528,1010 L 528,1011 L 531,1011 L 531,1012 L 535,1013 L 536,1015 L 538,1015 L 539,1017 L 541,1017 L 542,1019 L 544,1019 L 545,1021 L 547,1021 L 548,1023 L 550,1023 L 551,1025 L 553,1025 L 553,1031 L 552,1031 L 552,1043 L 551,1043 L 551,1055 L 550,1055 L 550,1102 L 551,1102 L 552,1110 L 553,1110 L 553,1113 L 554,1113 L 555,1121 L 556,1121 L 556,1124 L 557,1124 L 557,1128 L 558,1128 L 558,1131 L 559,1131 L 559,1135 L 560,1135 L 561,1142 L 562,1142 L 562,1144 L 563,1144 L 563,1146 L 564,1146 L 564,1148 L 565,1148 L 565,1150 L 566,1150 L 566,1152 L 567,1152 L 567,1154 L 568,1154 L 568,1156 L 569,1156 L 569,1158 L 570,1158 L 571,1161 L 569,1161 L 568,1163 L 566,1163 L 566,1164 L 563,1165 L 563,1166 L 550,1166 L 550,1165 L 547,1165 L 547,1164 L 544,1164 L 544,1163 L 541,1163 L 541,1162 L 538,1162 L 538,1161 L 535,1161 L 535,1160 L 532,1160 L 532,1159 L 527,1158 L 526,1158 L 526,1157 L 523,1157 L 523,1156 L 520,1156 L 518,1153 L 516,1153 L 512,1148 L 510,1148 L 506,1143 L 504,1143 L 500,1138 L 498,1138 L 494,1133 L 492,1133 L 492,1132 L 488,1129 L 489,1117 L 487,1116 L 487,1114 L 486,1114 L 486,1112 L 484,1111 L 484,1109 L 483,1109 L 482,1107 L 478,1107 L 477,1109 L 474,1110 L 474,1109 L 472,1109 L 472,1107 L 469,1105 L 470,1100 L 471,1100 L 471,1098 L 472,1098 L 472,1088 L 471,1088 L 471,1083 L 470,1083 L 469,1080 L 468,1080 L 468,1077 L 467,1077 L 466,1075 L 462,1074 L 462,1070 L 461,1070 L 461,1069 L 455,1069 L 454,1071 L 450,1071 L 449,1069 L 447,1069 L 446,1066 L 445,1066 L 445,1062 L 446,1062 L 446,1060 L 447,1060 L 447,1052 L 445,1051 L 444,1048 L 434,1049 L 434,1048 L 433,1048 L 433,1045 L 432,1045 L 432,1040 L 433,1040 L 434,1037 L 436,1036 L 436,1030 L 437,1030 L 437,1027 L 438,1027 L 439,1023 L 441,1022 L 441,1020 L 444,1018 L 444,1016 L 445,1016 L 445,1015 L 446,1015 L 446,1014 L 447,1014 L 447,1013 L 448,1013 L 453,1007 L 456,1007 L 456,1005 L 457,1005 L 460,1001 L 462,1001 L 465,997 L 467,997 L 467,996 L 469,995 L 469,985 L 472,984 L 472,983 L 475,983 L 475,982 Z"><title>Pé esquerdo</title></path>
-<path class="body-region" data-part="head" role="button" tabindex="0" aria-pressed="false" aria-label="Selecionar Cabeça" d="M 475,190 L 478,190 L 478,191 L 483,192 L 483,193 L 491,193 L 492,196 L 494,196 L 494,197 L 499,197 L 499,198 L 503,199 L 504,201 L 508,202 L 508,206 L 511,208 L 511,213 L 512,213 L 512,215 L 515,217 L 515,222 L 517,222 L 517,223 L 519,223 L 520,225 L 522,225 L 525,229 L 527,229 L 527,230 L 531,233 L 531,235 L 534,237 L 534,239 L 535,239 L 535,241 L 536,241 L 538,247 L 539,247 L 539,248 L 543,251 L 543,253 L 547,256 L 547,258 L 548,258 L 548,271 L 549,271 L 549,273 L 550,273 L 550,278 L 553,279 L 554,281 L 556,281 L 556,282 L 562,287 L 562,289 L 563,289 L 562,295 L 561,295 L 561,297 L 558,299 L 558,302 L 559,302 L 559,304 L 560,304 L 560,306 L 561,306 L 561,308 L 562,308 L 562,311 L 563,311 L 563,321 L 564,321 L 564,323 L 565,323 L 564,334 L 567,335 L 567,346 L 566,346 L 566,348 L 565,348 L 565,350 L 564,350 L 562,356 L 560,356 L 559,358 L 557,358 L 557,359 L 554,360 L 553,362 L 551,362 L 551,363 L 549,363 L 549,364 L 546,364 L 546,365 L 544,365 L 544,366 L 542,366 L 542,367 L 539,367 L 539,368 L 537,368 L 537,369 L 522,369 L 522,368 L 519,368 L 519,367 L 516,367 L 516,366 L 513,366 L 513,365 L 507,364 L 507,363 L 505,363 L 505,362 L 503,362 L 503,361 L 500,361 L 500,360 L 496,359 L 496,358 L 494,358 L 494,357 L 491,357 L 491,356 L 485,354 L 484,352 L 480,351 L 480,350 L 477,349 L 476,347 L 474,347 L 474,346 L 472,346 L 471,344 L 469,344 L 466,340 L 464,340 L 459,334 L 457,334 L 457,333 L 452,329 L 452,327 L 448,324 L 448,322 L 443,318 L 443,316 L 442,316 L 441,314 L 438,314 L 438,313 L 435,313 L 435,312 L 431,312 L 431,311 L 428,311 L 428,310 L 405,310 L 405,308 L 402,306 L 402,304 L 399,303 L 399,296 L 398,296 L 398,294 L 396,294 L 396,293 L 397,293 L 397,288 L 398,288 L 398,279 L 399,279 L 398,268 L 399,268 L 400,265 L 401,265 L 401,262 L 400,262 L 401,254 L 400,254 L 400,253 L 401,253 L 401,251 L 402,251 L 403,248 L 404,248 L 404,243 L 405,243 L 405,239 L 406,239 L 406,235 L 407,235 L 407,233 L 408,233 L 410,230 L 414,230 L 414,226 L 416,225 L 417,221 L 418,221 L 418,222 L 422,222 L 422,218 L 424,218 L 424,217 L 427,216 L 427,215 L 430,215 L 430,211 L 431,211 L 432,209 L 438,209 L 438,208 L 440,207 L 440,204 L 442,204 L 442,203 L 450,203 L 451,200 L 454,199 L 454,197 L 455,197 L 455,199 L 458,199 L 457,194 L 462,194 L 462,193 L 472,194 L 472,193 L 475,192 L 475,190 Z"><title>Cabeça</title></path></svg></div><div class="era-caption"><strong id="era-title">NEYMAR JR. · TODOS OS TIMES</strong><p id="era-context">Selecione um time para explorar cada fase.</p></div><div class="photo-controls"><span id="photo-label" role="status">Cabeça e chuteiras selecionáveis</span><button id="inspect-part">Ver contorno de perto ↗</button></div><p class="player-hint">Clique diretamente na cabeça ou em uma chuteira</p></div>
-<div class="dashboard"><div class="filter-row"><div class="club-picker"><span class="filter-label">TIME · <span id="selected-team">Todos os times</span></span><div id="club-filters" class="club-filters" role="group" aria-label="Filtrar por time"></div><label class="sr-only">Time<select id="team" tabindex="-1"><option value="all">Todos os times</option></select></label></div><label>PERÍODO<select id="year"><option value="all">Todos os anos</option></select></label></div><div class="summary"><div><strong id="total">—</strong><span>GOLS NA BASE</span></div><div><strong id="teams">—</strong><span>TIMES</span></div><div><strong id="matches">—</strong><span>PARTIDAS NA BASE</span></div></div><div class="stat-card"><div class="card-heading"><span class="eyebrow">ANATOMIA DO GOL</span><span class="card-icon">↗</span></div><h2 id="part-title">Todos os gols</h2><div class="big-stat"><strong id="selected-count">—</strong><span id="selected-percent">Selecione uma região</span></div><div id="bars" class="bars"></div><button id="reset" class="reset">Ver todas as partes <span>↗</span></button></div><p class="fineprint">Estatísticas dos registros disponíveis.</p></div>
-</section>
-<section id="goals" class="goals-section"><div class="section-heading"><div><p class="eyebrow">O JOGO EM REGISTROS</p><h2>Gols &amp; momentos.</h2></div><span id="result-count">—</span></div><div id="goal-list" class="goal-list"></div></section>
-</main><dialog id="detail-dialog"><div class="detail-heading"><h2 id="detail-title">Contorno em detalhe</h2><button id="close-detail" aria-label="Fechar detalhe">×</button></div><svg id="detail-svg" aria-label="Região ampliada com contorno"><image href="neymar-croacia-2022.png" width="1024" height="1536"/><path id="detail-path"/></svg><p>A linha acompanha a borda da imagem. O limite da região é definido na meia ou no pescoço.</p></dialog><footer><a class="footer-identity" href="#" aria-label="Anatomy — início"><img src="anatomy-mark.svg" width="28" height="28" alt=""><strong>ANATOMY.</strong></a><span>PROJETO INDEPENDENTE · PORTFÓLIO</span><a href="#">Voltar ao topo ↑</a></footer>
-</body></html>
-
-
-
-
-
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101310" />
+    <title>Neymar Anatomy · O jogo, parte por parte</title>
+    <meta
+      name="description"
+      content="Explore os gols de Neymar por parte do corpo, time e período. Um perfil interativo de futebol."
+    />
+    <link rel="icon" type="image/svg+xml" href="anatomy-mark.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script src="counters.js" defer></script>
+    <!-- Scripts compartilhados vêm antes do coordenador app.js. -->
+    <script src="core.js" defer></script>
+    <script src="filters.js" defer></script>
+    <script src="references.js" defer></script>
+    <script src="goals.js" defer></script>
+    <script src="app.js" defer></script>
+    <script src="player2d.js" defer></script>
+    <script src="trophies.js" defer></script>
+    <script src="navigation.js" defer></script>
+    <script src="preferences.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="topbar">
+        <a
+          class="profile-brand"
+          href="#overview"
+          aria-label="Neymar Anatomy — início"
+          ><span class="profile-avatar" aria-hidden="true"></span
+          ><span class="profile-brand-text"
+            ><strong>Neymar Jr<span>Anatomy</span></strong
+            ><span class="profile-subtitle">Anatomia dos gols</span></span
+          ></a
+        >
+        <nav aria-label="Navegação principal">
+          <a href="#overview" class="active" aria-current="location"
+            >Visão geral</a
+          ><a href="#anatomy">Anatomia</a
+          ><a href="#goals">Gols &amp; momentos</a
+          ><a href="#trophies">Troféus</a>
+        </nav>
+        <div class="header-preferences">
+          <button
+            id="theme-toggle"
+            type="button"
+            aria-label="Ativar modo claro"
+            title="Ativar modo claro"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="18"
+              height="18"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="4" />
+              <path
+                d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l2 2m10 10l2 2M5 19l2-2M17 7l2-2"
+              />
+            </svg>
+          </button>
+          <div class="language-flags" role="group" aria-label="Idioma">
+            <button
+              type="button"
+              data-language="pt"
+              aria-label="Português"
+              title="Português"
+            >
+              <svg viewBox="0 0 28 18" aria-hidden="true">
+                <path fill="#079447" d="M0 0h28v18H0z" />
+                <path fill="#ffdf32" d="m14 2 11 7-11 7L3 9z" />
+                <circle cx="14" cy="9" r="4.5" fill="#1b3689" />
+                <path
+                  d="M10 7q4 0 8 4"
+                  stroke="white"
+                  stroke-width="1.1"
+                  fill="none"
+                />
+              </svg></button
+            ><button
+              type="button"
+              data-language="es"
+              aria-label="Español"
+              title="Español"
+            >
+              <svg viewBox="0 0 28 18" aria-hidden="true">
+                <path fill="#c9152a" d="M0 0h28v18H0z" />
+                <path fill="#ffd744" d="M0 4.5h28v9H0z" />
+                <path fill="#b92736" d="M7 7h3v4H7z" />
+                <path fill="#d3ab35" d="M6 6h5v1H6z" />
+              </svg></button
+            ><button
+              type="button"
+              data-language="en"
+              aria-label="English"
+              title="English"
+            >
+              <svg viewBox="0 0 28 18" aria-hidden="true">
+                <path fill="#203674" d="M0 0h28v18H0z" />
+                <path
+                  d="m0 0 28 18M28 0 0 18"
+                  stroke="white"
+                  stroke-width="4"
+                />
+                <path
+                  d="m0 0 28 18M28 0 0 18"
+                  stroke="#cb233b"
+                  stroke-width="1.5"
+                />
+                <path d="M14 0v18M0 9h28" stroke="white" stroke-width="6" />
+                <path d="M14 0v18M0 9h28" stroke="#cb233b" stroke-width="3" />
+              </svg>
+            </button>
+          </div>
+          <select
+            id="language"
+            class="sr-only"
+            tabindex="-1"
+            aria-label="Idioma"
+          >
+            <option value="pt">Português</option>
+            <option value="es">Español</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section
+        id="overview"
+        class="career-overview"
+        aria-labelledby="overview-title"
+      >
+        <div class="overview-main">
+          <div class="overview-heading">
+            <div class="hero-identity">
+              <div class="hero-portrait">
+                <img
+                  src="neymar-avatar-real.png"
+                  alt="Retrato fotográfico de Neymar"
+                  width="104"
+                  height="104"
+                />
+              </div>
+              <div>
+                <span class="overview-kicker">ANATOMY</span>
+                <h1 id="overview-title">NEYMAR <span>JR.</span></h1>
+                <p>Atacante · Brasil · Camisa 10</p>
+              </div>
+            </div>
+            <a
+              class="current-club"
+              href="https://www.santosfc.com.br/santos-fc-e-neymar-jr-renovam-contrato-ate-o-fim-de-2026/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="club-santos-coroa.png"
+                alt="Escudo do Santos"
+                width="36"
+                height="36" /><span
+                ><small>CLUBE ATUAL</small><strong>Santos FC</strong></span
+              ><i></i
+            ></a>
+          </div>
+          <div class="overview-stats">
+            <div class="stats-topline">
+              <span class="eyebrow">◎ VISÃO GERAL DOS GOLS</span
+              ><span id="base-badge" class="data-badge">CARREGANDO BASE</span>
+            </div>
+            <div class="overview-stat-grid">
+              <div class="career-total">
+                <span class="metric-label">GOLS NA BASE</span
+                ><strong id="overview-goals">—</strong>
+                <div
+                  id="overview-distribution"
+                  class="distribution-track"
+                  aria-label="Distribuição dos gols por parte do corpo"
+                ></div>
+                <div class="distribution-legend">
+                  <span><i class="legend-right"></i> Direito</span
+                  ><span><i class="legend-left"></i> Esquerdo</span
+                  ><span><i class="legend-head"></i> Cabeça</span>
+                </div>
+              </div>
+              <div class="overview-mini-grid">
+                <a class="overview-mini" href="#goals"
+                  ><span>Partidas na base</span
+                  ><strong id="overview-matches">—</strong
+                  ><small>Ver os registros ↗</small></a
+                ><a class="overview-mini" href="#goals"
+                  ><span>Times na base</span
+                  ><strong id="overview-teams">—</strong
+                  ><small>Clubes e seleção ↗</small></a
+                ><button
+                  class="overview-mini mini-left"
+                  data-overview-part="left"
+                >
+                  <span>Gols com o pé esquerdo</span
+                  ><strong id="overview-left">—</strong
+                  ><small>Explorar região ↗</small></button
+                ><button
+                  class="overview-mini mini-head"
+                  data-overview-part="head"
+                >
+                  <span>Gols de cabeça</span
+                  ><strong id="overview-head">—</strong
+                  ><small>Explorar região ↗</small>
+                </button>
+              </div>
+            </div>
+            <div class="overview-bottom">
+              <a class="anatomy-cta" href="#anatomy"
+                >Explorar anatomia <span>↗</span></a
+              ><span>Selecione uma parte. Explore os gols.</span>
+            </div>
+            <div id="status" class="overview-data-note" role="status">
+              Carregando estatísticas…
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="anatomy"
+        class="anatomy"
+        aria-label="Explore os gols por parte do corpo"
+      >
+        <div class="player-area">
+          <span class="watermark" aria-hidden="true">10</span
+          ><span class="vertical-label">NEYMAR DA SILVA SANTOS JÚNIOR</span>
+          <div class="player-frame">
+            <img
+              class="player"
+              src="neymar-croacia-2022.png"
+              alt="Neymar comemorando o gol contra a Croácia em 2022, recorte preparado por IA a partir de fotografia"
+            /><svg
+              class="body-map"
+              viewBox="0 160 1024 1200"
+              aria-label="Cabeça e chuteiras selecionáveis"
+            >
+              <path
+                class="body-region"
+                data-part="right"
+                role="button"
+                tabindex="0"
+                aria-pressed="false"
+                aria-label="Selecionar Pé direito"
+                d="M 182,1114 L 197,1115 L 197,1116 L 200,1116 L 200,1117 L 203,1117 L 203,1118 L 209,1119 L 209,1120 L 215,1122 L 216,1124 L 220,1125 L 222,1128 L 224,1128 L 226,1131 L 228,1131 L 230,1134 L 232,1134 L 232,1135 L 235,1136 L 236,1138 L 238,1138 L 238,1139 L 240,1139 L 240,1140 L 246,1142 L 245,1144 L 243,1144 L 241,1147 L 239,1147 L 238,1149 L 236,1149 L 236,1150 L 234,1151 L 234,1153 L 233,1153 L 233,1155 L 232,1155 L 232,1157 L 231,1157 L 231,1159 L 230,1159 L 230,1161 L 229,1161 L 229,1163 L 228,1163 L 228,1165 L 227,1165 L 227,1167 L 226,1167 L 226,1169 L 225,1169 L 225,1171 L 224,1171 L 224,1173 L 223,1173 L 223,1181 L 224,1181 L 224,1184 L 225,1184 L 225,1187 L 226,1187 L 226,1191 L 227,1191 L 227,1194 L 228,1194 L 228,1197 L 229,1197 L 230,1204 L 231,1204 L 233,1210 L 235,1211 L 236,1215 L 238,1216 L 238,1217 L 232,1218 L 232,1219 L 230,1219 L 230,1220 L 227,1220 L 227,1221 L 225,1222 L 225,1225 L 228,1226 L 228,1227 L 237,1228 L 237,1229 L 239,1230 L 239,1234 L 238,1234 L 236,1237 L 233,1237 L 233,1236 L 229,1235 L 225,1230 L 221,1230 L 219,1233 L 217,1233 L 215,1236 L 213,1236 L 213,1237 L 212,1237 L 211,1239 L 209,1239 L 209,1240 L 203,1240 L 203,1241 L 200,1241 L 200,1242 L 199,1242 L 199,1240 L 196,1240 L 194,1244 L 191,1244 L 191,1245 L 185,1247 L 185,1248 L 182,1250 L 181,1253 L 177,1253 L 177,1254 L 174,1256 L 173,1260 L 172,1260 L 167,1266 L 164,1267 L 164,1269 L 163,1269 L 162,1272 L 159,1274 L 159,1276 L 157,1277 L 157,1279 L 154,1281 L 153,1284 L 153,1285 L 151,1286 L 150,1290 L 144,1295 L 144,1297 L 142,1298 L 142,1300 L 140,1301 L 140,1303 L 139,1303 L 135,1308 L 133,1308 L 132,1310 L 130,1310 L 130,1311 L 128,1311 L 128,1312 L 120,1312 L 120,1311 L 118,1311 L 118,1310 L 112,1305 L 112,1294 L 106,1292 L 106,1284 L 108,1283 L 108,1281 L 110,1281 L 110,1280 L 112,1279 L 111,1271 L 112,1271 L 112,1268 L 113,1268 L 113,1265 L 114,1265 L 114,1261 L 113,1261 L 113,1259 L 109,1256 L 109,1249 L 110,1249 L 111,1246 L 113,1246 L 113,1245 L 118,1245 L 118,1241 L 121,1240 L 121,1239 L 124,1237 L 124,1235 L 125,1235 L 125,1231 L 124,1231 L 124,1230 L 122,1229 L 122,1227 L 121,1227 L 122,1222 L 123,1222 L 125,1219 L 134,1219 L 134,1218 L 136,1217 L 136,1215 L 138,1214 L 139,1210 L 141,1209 L 142,1205 L 144,1204 L 145,1200 L 147,1199 L 147,1197 L 148,1197 L 148,1195 L 149,1195 L 149,1193 L 150,1193 L 150,1191 L 151,1191 L 151,1189 L 152,1189 L 152,1187 L 153,1187 L 153,1184 L 154,1184 L 154,1181 L 155,1181 L 156,1169 L 155,1169 L 155,1166 L 152,1164 L 151,1158 L 152,1158 L 153,1156 L 155,1156 L 155,1155 L 158,1154 L 158,1147 L 156,1146 L 156,1144 L 155,1144 L 154,1142 L 151,1141 L 152,1134 L 153,1134 L 154,1132 L 160,1132 L 160,1133 L 166,1132 L 166,1131 L 168,1130 L 168,1127 L 167,1127 L 167,1125 L 166,1125 L 166,1123 L 165,1123 L 166,1119 L 167,1119 L 169,1116 L 177,1117 L 177,1116 L 182,1115 L 182,1114 Z"
+              >
+                <title>Pé direito</title>
+              </path>
+              <path
+                class="body-region"
+                data-part="left"
+                role="button"
+                tabindex="0"
+                aria-pressed="false"
+                aria-label="Selecionar Pé esquerdo"
+                d="M 475,982 L 478,983 L 479,985 L 481,985 L 482,987 L 484,987 L 485,989 L 487,989 L 488,991 L 492,992 L 493,994 L 495,994 L 496,996 L 498,996 L 498,997 L 501,998 L 502,1000 L 504,1000 L 504,1001 L 506,1001 L 506,1002 L 509,1002 L 509,1003 L 511,1003 L 511,1004 L 514,1004 L 514,1005 L 516,1005 L 516,1006 L 518,1006 L 518,1007 L 521,1007 L 521,1008 L 523,1008 L 523,1009 L 526,1009 L 526,1010 L 528,1010 L 528,1011 L 531,1011 L 531,1012 L 535,1013 L 536,1015 L 538,1015 L 539,1017 L 541,1017 L 542,1019 L 544,1019 L 545,1021 L 547,1021 L 548,1023 L 550,1023 L 551,1025 L 553,1025 L 553,1031 L 552,1031 L 552,1043 L 551,1043 L 551,1055 L 550,1055 L 550,1102 L 551,1102 L 552,1110 L 553,1110 L 553,1113 L 554,1113 L 555,1121 L 556,1121 L 556,1124 L 557,1124 L 557,1128 L 558,1128 L 558,1131 L 559,1131 L 559,1135 L 560,1135 L 561,1142 L 562,1142 L 562,1144 L 563,1144 L 563,1146 L 564,1146 L 564,1148 L 565,1148 L 565,1150 L 566,1150 L 566,1152 L 567,1152 L 567,1154 L 568,1154 L 568,1156 L 569,1156 L 569,1158 L 570,1158 L 571,1161 L 569,1161 L 568,1163 L 566,1163 L 566,1164 L 563,1165 L 563,1166 L 550,1166 L 550,1165 L 547,1165 L 547,1164 L 544,1164 L 544,1163 L 541,1163 L 541,1162 L 538,1162 L 538,1161 L 535,1161 L 535,1160 L 532,1160 L 532,1159 L 527,1158 L 526,1158 L 526,1157 L 523,1157 L 523,1156 L 520,1156 L 518,1153 L 516,1153 L 512,1148 L 510,1148 L 506,1143 L 504,1143 L 500,1138 L 498,1138 L 494,1133 L 492,1133 L 492,1132 L 488,1129 L 489,1117 L 487,1116 L 487,1114 L 486,1114 L 486,1112 L 484,1111 L 484,1109 L 483,1109 L 482,1107 L 478,1107 L 477,1109 L 474,1110 L 474,1109 L 472,1109 L 472,1107 L 469,1105 L 470,1100 L 471,1100 L 471,1098 L 472,1098 L 472,1088 L 471,1088 L 471,1083 L 470,1083 L 469,1080 L 468,1080 L 468,1077 L 467,1077 L 466,1075 L 462,1074 L 462,1070 L 461,1070 L 461,1069 L 455,1069 L 454,1071 L 450,1071 L 449,1069 L 447,1069 L 446,1066 L 445,1066 L 445,1062 L 446,1062 L 446,1060 L 447,1060 L 447,1052 L 445,1051 L 444,1048 L 434,1049 L 434,1048 L 433,1048 L 433,1045 L 432,1045 L 432,1040 L 433,1040 L 434,1037 L 436,1036 L 436,1030 L 437,1030 L 437,1027 L 438,1027 L 439,1023 L 441,1022 L 441,1020 L 444,1018 L 444,1016 L 445,1016 L 445,1015 L 446,1015 L 446,1014 L 447,1014 L 447,1013 L 448,1013 L 453,1007 L 456,1007 L 456,1005 L 457,1005 L 460,1001 L 462,1001 L 465,997 L 467,997 L 467,996 L 469,995 L 469,985 L 472,984 L 472,983 L 475,983 L 475,982 Z"
+              >
+                <title>Pé esquerdo</title>
+              </path>
+              <path
+                class="body-region"
+                data-part="head"
+                role="button"
+                tabindex="0"
+                aria-pressed="false"
+                aria-label="Selecionar Cabeça"
+                d="M 475,190 L 478,190 L 478,191 L 483,192 L 483,193 L 491,193 L 492,196 L 494,196 L 494,197 L 499,197 L 499,198 L 503,199 L 504,201 L 508,202 L 508,206 L 511,208 L 511,213 L 512,213 L 512,215 L 515,217 L 515,222 L 517,222 L 517,223 L 519,223 L 520,225 L 522,225 L 525,229 L 527,229 L 527,230 L 531,233 L 531,235 L 534,237 L 534,239 L 535,239 L 535,241 L 536,241 L 538,247 L 539,247 L 539,248 L 543,251 L 543,253 L 547,256 L 547,258 L 548,258 L 548,271 L 549,271 L 549,273 L 550,273 L 550,278 L 553,279 L 554,281 L 556,281 L 556,282 L 562,287 L 562,289 L 563,289 L 562,295 L 561,295 L 561,297 L 558,299 L 558,302 L 559,302 L 559,304 L 560,304 L 560,306 L 561,306 L 561,308 L 562,308 L 562,311 L 563,311 L 563,321 L 564,321 L 564,323 L 565,323 L 564,334 L 567,335 L 567,346 L 566,346 L 566,348 L 565,348 L 565,350 L 564,350 L 562,356 L 560,356 L 559,358 L 557,358 L 557,359 L 554,360 L 553,362 L 551,362 L 551,363 L 549,363 L 549,364 L 546,364 L 546,365 L 544,365 L 544,366 L 542,366 L 542,367 L 539,367 L 539,368 L 537,368 L 537,369 L 522,369 L 522,368 L 519,368 L 519,367 L 516,367 L 516,366 L 513,366 L 513,365 L 507,364 L 507,363 L 505,363 L 505,362 L 503,362 L 503,361 L 500,361 L 500,360 L 496,359 L 496,358 L 494,358 L 494,357 L 491,357 L 491,356 L 485,354 L 484,352 L 480,351 L 480,350 L 477,349 L 476,347 L 474,347 L 474,346 L 472,346 L 471,344 L 469,344 L 466,340 L 464,340 L 459,334 L 457,334 L 457,333 L 452,329 L 452,327 L 448,324 L 448,322 L 443,318 L 443,316 L 442,316 L 441,314 L 438,314 L 438,313 L 435,313 L 435,312 L 431,312 L 431,311 L 428,311 L 428,310 L 405,310 L 405,308 L 402,306 L 402,304 L 399,303 L 399,296 L 398,296 L 398,294 L 396,294 L 396,293 L 397,293 L 397,288 L 398,288 L 398,279 L 399,279 L 398,268 L 399,268 L 400,265 L 401,265 L 401,262 L 400,262 L 401,254 L 400,254 L 400,253 L 401,253 L 401,251 L 402,251 L 403,248 L 404,248 L 404,243 L 405,243 L 405,239 L 406,239 L 406,235 L 407,235 L 407,233 L 408,233 L 410,230 L 414,230 L 414,226 L 416,225 L 417,221 L 418,221 L 418,222 L 422,222 L 422,218 L 424,218 L 424,217 L 427,216 L 427,215 L 430,215 L 430,211 L 431,211 L 432,209 L 438,209 L 438,208 L 440,207 L 440,204 L 442,204 L 442,203 L 450,203 L 451,200 L 454,199 L 454,197 L 455,197 L 455,199 L 458,199 L 457,194 L 462,194 L 462,193 L 472,194 L 472,193 L 475,192 L 475,190 Z"
+              >
+                <title>Cabeça</title>
+              </path>
+            </svg>
+          </div>
+          <div class="era-caption">
+            <strong id="era-title">NEYMAR JR. · TODOS OS TIMES</strong>
+            <p id="era-context">Selecione um time para explorar cada fase.</p>
+          </div>
+          <div class="photo-controls">
+            <span id="photo-label" role="status"
+              >Cabeça e chuteiras selecionáveis</span
+            ><button id="inspect-part">Ver contorno de perto ↗</button>
+          </div>
+          <p class="player-hint">
+            Clique diretamente na cabeça ou em uma chuteira
+          </p>
+        </div>
+        <div class="dashboard">
+          <div class="filter-row">
+            <div class="club-picker">
+              <span class="filter-label"
+                >TIME · <span id="selected-team">Todos os times</span></span
+              >
+              <div
+                id="club-filters"
+                class="club-filters"
+                role="group"
+                aria-label="Filtrar por time"
+              ></div>
+              <label class="sr-only"
+                >Time<select id="team" tabindex="-1">
+                  <option value="all">Todos os times</option>
+                </select></label
+              >
+            </div>
+            <label
+              >PERÍODO<select id="year">
+                <option value="all">Todos os anos</option>
+              </select></label
+            >
+          </div>
+          <div class="summary">
+            <div><strong id="total">—</strong><span>GOLS NA BASE</span></div>
+            <div><strong id="teams">—</strong><span>TIMES</span></div>
+            <div>
+              <strong id="matches">—</strong><span>PARTIDAS NA BASE</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="card-heading">
+              <span class="eyebrow">ANATOMIA DO GOL</span
+              ><span class="card-icon">↗</span>
+            </div>
+            <h2 id="part-title">Todos os gols</h2>
+            <div class="big-stat">
+              <strong id="selected-count">—</strong
+              ><span id="selected-percent">Selecione uma região</span>
+            </div>
+            <div id="bars" class="bars"></div>
+            <button id="reset" class="reset">
+              Ver todas as partes <span>↗</span>
+            </button>
+          </div>
+          <p class="fineprint">Estatísticas dos registros disponíveis.</p>
+        </div>
+      </section>
+      <section id="goals" class="goals-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">O JOGO EM REGISTROS</p>
+            <h2>Gols &amp; momentos.</h2>
+          </div>
+          <span id="result-count">—</span>
+        </div>
+        <div class="goal-filters">
+          <label
+            >Time<select id="goals-team">
+              <option value="all">Todos os times</option>
+            </select></label
+          ><label
+            >Período<select id="goals-year">
+              <option value="all">Todos os anos</option>
+            </select></label
+          ><label
+            >Jogada<select id="goals-method">
+              <option value="all">Todas as jogadas</option>
+              <option value="penalty">Pênalti</option>
+              <option value="free">Falta</option>
+              <option value="open">Bola rolando</option>
+            </select></label
+          ><label
+            >Adversário<input
+              id="goals-search"
+              type="search"
+              placeholder="Buscar adversário"
+              autocomplete="off"
+          /></label>
+        </div>
+        <div id="goal-list" class="goal-list"></div>
+        <div
+          id="goal-pagination"
+          class="goal-pagination"
+          aria-label="Paginação dos gols"
+        >
+          <button id="goals-prev" type="button">← Anterior</button
+          ><span id="goals-page" role="status"></span
+          ><button id="goals-next" type="button">Próxima →</button>
+        </div>
+      </section>
+      <section
+        id="trophies"
+        class="trophies-section"
+        aria-labelledby="trophies-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">AS CONQUISTAS</p>
+            <h2 id="trophies-title">Troféus &amp; títulos.</h2>
+            <p class="trophies-intro">Os títulos que marcaram cada fase.</p>
+          </div>
+          <span id="trophies-context" role="status">Todos os times</span>
+        </div>
+        <div
+          id="trophy-filters"
+          class="club-filters"
+          role="group"
+          aria-label="Filtrar troféus por time"
+        ></div>
+        <div id="trophy-list" class="trophy-list"></div>
+        <button
+          id="trophies-more"
+          class="trophies-more"
+          type="button"
+          aria-expanded="false"
+        >
+          Ver mais conquistas ↓
+        </button>
+        <p class="trophies-note">
+          Referência de 30 títulos coletivos, incluindo o ouro olímpico. Outras
+          contagens podem variar conforme os critérios de participação e seleção
+          de base. Anos indicam edição ou temporada.
+          <a
+            class="trophy-source"
+            href="https://as.com/futbol/internacional/lo-que-pudo-ser-neymar-y-no-fue-f202512-n/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Fonte da contagem ↗</a
+          >
+        </p>
+      </section>
+    </main>
+    <dialog id="detail-dialog">
+      <div class="detail-heading">
+        <h2 id="detail-title">Contorno em detalhe</h2>
+        <button id="close-detail" aria-label="Fechar detalhe">×</button>
+      </div>
+      <svg id="detail-svg" aria-label="Região ampliada com contorno">
+        <image href="neymar-croacia-2022.png" width="1024" height="1536" />
+        <path id="detail-path" />
+      </svg>
+      <p>
+        A linha acompanha a borda da imagem. O limite da região é definido na
+        meia ou no pescoço.
+      </p>
+    </dialog>
+    <footer>
+      <a class="footer-identity" href="#" aria-label="Anatomy — início"
+        ><img src="anatomy-mark.svg" width="28" height="28" alt="" /><strong
+          >ANATOMY.</strong
+        ></a
+      ><span>PROJETO INDEPENDENTE · PORTFÓLIO</span
+      ><a href="#">Voltar ao topo ↑</a>
+    </footer>
+  </body>
+</html>

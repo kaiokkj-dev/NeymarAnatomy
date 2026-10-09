@@ -1,0 +1,411 @@
+{
+  "review_date": "2026-10-09",
+  "team": "PSG",
+  "catalog_goals": 118,
+  "independently_matched_goals": 117,
+  "counts": {
+    "right": 80,
+    "left": 33,
+    "head": 5
+  },
+  "changes": [
+    {
+      "source_event_id": "tm:2901021:6:2",
+      "date": "2017-08-20",
+      "minute": 90,
+      "previous_body_part": "unknown",
+      "body_part": "left",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/482393",
+      "evidence": "left footed shot"
+    },
+    {
+      "source_event_id": "tm:2901112:1:3",
+      "date": "2017-09-08",
+      "minute": 69,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/482371",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2917383:3:0",
+      "date": "2017-09-27",
+      "minute": 63,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/495308",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2901321:1:0",
+      "date": "2017-09-30",
+      "minute": 5,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/482334",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2901321:4:1",
+      "date": "2017-09-30",
+      "minute": 40,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/482334",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2917391:0:3",
+      "date": "2017-10-18",
+      "minute": 66,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/495301",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2942689:0:2",
+      "date": "2017-11-26",
+      "minute": 52,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/482281",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2942729:0:1",
+      "date": "2017-12-16",
+      "minute": 4,
+      "previous_body_part": "unknown",
+      "body_part": "left",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/482242",
+      "evidence": "left footed shot"
+    },
+    {
+      "source_event_id": "tm:2988496:0:1",
+      "date": "2018-01-10",
+      "minute": 53,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/500310",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2942757:4:0",
+      "date": "2018-01-17",
+      "minute": 42,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/482205",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2942757:6:0",
+      "date": "2018-01-17",
+      "minute": 73,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/482205",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2942757:8:0",
+      "date": "2018-01-17",
+      "minute": 83,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/482205",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2942778:2:0",
+      "date": "2018-01-27",
+      "minute": 40,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/482188",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:2942785:0:2",
+      "date": "2018-02-03",
+      "minute": 77,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/482181",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3047444:1:1",
+      "date": "2018-08-18",
+      "minute": 53,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/512369",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3047529:2:1",
+      "date": "2018-09-26",
+      "minute": 24,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/512317",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3097983:1:0",
+      "date": "2018-10-03",
+      "minute": 20,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/526483",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3097983:6:1",
+      "date": "2018-10-03",
+      "minute": 81,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/526483",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3047549:1:0",
+      "date": "2018-10-07",
+      "minute": 9,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/512291",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3047586:0:4",
+      "date": "2018-11-11",
+      "minute": 64,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/512251",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3098031:2:0",
+      "date": "2018-11-28",
+      "minute": 37,
+      "previous_body_part": "unknown",
+      "body_part": "left",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/526432",
+      "evidence": "left footed shot"
+    },
+    {
+      "source_event_id": "tm:3047866:1:1",
+      "date": "2019-05-04",
+      "minute": 60,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/512046",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3199508:2:0",
+      "date": "2019-12-04",
+      "minute": 85,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/542079",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3199520:1:1",
+      "date": "2019-12-07",
+      "minute": 74,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/542071",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3199529:0:1",
+      "date": "2019-12-15",
+      "minute": 9,
+      "previous_body_part": "unknown",
+      "body_part": "left",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/542061",
+      "evidence": "left footed shot"
+    },
+    {
+      "source_event_id": "tm:3199556:3:2",
+      "date": "2020-01-12",
+      "minute": 42,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/542035",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3199499:0:2",
+      "date": "2020-01-15",
+      "minute": 47,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/542091",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3199566:0:2",
+      "date": "2020-01-26",
+      "minute": 52,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/542030",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3323313:1:2",
+      "date": "2020-03-04",
+      "minute": 64,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/568528",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3461779:1:0",
+      "date": "2020-11-24",
+      "minute": 11,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/585803",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3394677:1:1",
+      "date": "2020-11-28",
+      "minute": 27,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/573154",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3461822:2:0",
+      "date": "2020-12-09",
+      "minute": 37,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/585769",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3504750:2:0",
+      "date": "2021-01-13",
+      "minute": 85,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/590622",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3394774:1:1",
+      "date": "2021-01-31",
+      "minute": 45,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/573059",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3394774:1:2",
+      "date": "2021-01-31",
+      "minute": 58,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/573059",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3565111:0:1",
+      "date": "2021-05-09",
+      "minute": 51,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/572922",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3394993:1:0",
+      "date": "2021-05-16",
+      "minute": 13,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/572911",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3588917:1:1",
+      "date": "2021-09-19",
+      "minute": 66,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/609476",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3589500:1:3",
+      "date": "2022-04-09",
+      "minute": 71,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/609227",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3589579:2:0",
+      "date": "2022-05-08",
+      "minute": 25,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/609180",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3813957:2:0",
+      "date": "2022-07-31",
+      "minute": 50,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/635050",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3813957:4:0",
+      "date": "2022-07-31",
+      "minute": 82,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/635050",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3839780:2:0",
+      "date": "2022-08-13",
+      "minute": 43,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/639622",
+      "evidence": "right footed shot"
+    },
+    {
+      "source_event_id": "tm:3839845:1:1",
+      "date": "2022-08-28",
+      "minute": 70,
+      "previous_body_part": "unknown",
+      "body_part": "right",
+      "source_url": "https://www.espn.com/soccer/commentary/_/gameId/639644",
+      "evidence": "right footed shot"
+    }
+  ],
+  "source_conflicts": [],
+  "note": "Matched by match date and score after the goal. Duplicate ESPN representations collapsed by classification; canonical catalog minutes retained."
+}

@@ -1,0 +1,59 @@
+{
+  "researched_on": "2026-10-09",
+  "status": "imported_references",
+  "career_total": null,
+  "criteria": "Referências com fontes distintas; não representam contagem uniforme de assistências. Santos calculado por registros do Transfermarkt.",
+  "records": [
+    {
+      "team": "Barcelona",
+      "assists": 76,
+      "period": "2013–2017",
+      "status": "reported_by_official_club",
+      "source_url": "https://en.psg.fr/teams/first-team/content/paris-saint-germain-thank-neymar-jr-a-club-legend"
+    },
+    {
+      "team": "PSG",
+      "assists": 77,
+      "period": "2017–2023",
+      "status": "reported_by_press",
+      "source_url": "https://elpais.com/deportes/futbol/2025-01-28/el-santos-anuncia-que-neymar-vuelve-al-club-que-lo-descubrio-tras-dejar-el-al-hilal-saudi.html"
+    },
+    {
+      "team": "Brasil",
+      "assists": 59,
+      "period": "Seleção principal, referência publicada em 30/07/2026",
+      "status": "reported_by_press",
+      "source_url": "https://www1.folha.uol.com.br/esporte/2026/07/neymar-se-aposenta-da-selecao-confira-numeros-do-camisa-10-pelo-brasil.shtml"
+    },
+    {
+      "team": "Al-Hilal",
+      "assists": 3,
+      "period": "2023–2025",
+      "status": "reported_by_press",
+      "source_url": "https://as.com/futbol/el-al-hilal-paga-230-millones-por-un-gol-n/"
+    },
+    {
+      "team": "Santos",
+      "assists": 79,
+      "period": "Duas passagens, até 08/10/2026 · Transfermarkt",
+      "status": "computed_from_provider_match_records",
+      "partial_reference": {
+        "assists": 9,
+        "scope": "Segunda passagem, corte da matéria de convocação em 2026; não é total das duas passagens",
+        "source_url": "https://www.santosfc.com.br/neymar-jr-sera-o-representante-do-santos-fc-na-copa-do-mundo-2026/"
+      },
+      "source_url": "https://www.transfermarkt.com/neymar/leistungsdatenverein/spieler/68290",
+      "breakdown": {
+        "2009": 9,
+        "2010": 23,
+        "2011": 10,
+        "2012": 17,
+        "2013": 8,
+        "2025": 4,
+        "2026": 8
+      },
+      "method": "Soma de goalStatistics.assists em 278 partidas jogadas pelo clube 221, excluindo seleções; IDs de partidas únicos. 67 na primeira passagem e 12 na segunda.",
+      "data_url": "https://www.transfermarkt.com/ceapi/performance-game/68290"
+    }
+  ]
+}

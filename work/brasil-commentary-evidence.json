@@ -1,0 +1,770 @@
+[
+  {
+    "date": "2010-08-09",
+    "error": "Match not found in season index"
+  },
+  {
+    "date": "2011-03-27",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/314438",
+    "events": []
+  },
+  {
+    "date": "2011-07-13",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/314685",
+    "events": []
+  },
+  {
+    "date": "2011-08-10",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/315436",
+    "events": [
+      {
+        "event_id": "4887773",
+        "minute": "90'",
+        "score": "3:2",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2011-09-28",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/332638",
+    "events": []
+  },
+  {
+    "date": "2011-10-07",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/332380",
+    "events": []
+  },
+  {
+    "date": "2012-05-30",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/337036",
+    "events": [
+      {
+        "event_id": "5947643",
+        "minute": "12'",
+        "score": "0:1",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2012-09-10",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/355030",
+    "events": []
+  },
+  {
+    "date": "2012-09-19",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/342296",
+    "events": []
+  },
+  {
+    "date": "2012-10-11",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/356503",
+    "events": []
+  },
+  {
+    "date": "2012-10-16",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/355995",
+    "events": []
+  },
+  {
+    "date": "2012-11-14",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/356827",
+    "events": []
+  },
+  {
+    "date": "2013-04-06",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/363988",
+    "events": []
+  },
+  {
+    "date": "2013-04-24",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/362074",
+    "events": []
+  },
+  {
+    "date": "2013-06-15",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/365337",
+    "events": [
+      {
+        "event_id": "18269324",
+        "minute": "3'",
+        "score": "1:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2013-06-19",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/365334",
+    "events": [
+      {
+        "event_id": "6694971",
+        "minute": "9'",
+        "score": "1:0",
+        "body_part": "left",
+        "evidence": "left footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2013-06-22",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/365330",
+    "events": [
+      {
+        "event_id": "6697143",
+        "minute": "56'",
+        "score": "1:2",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2013-06-30",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/370806",
+    "events": [
+      {
+        "event_id": "18301293",
+        "minute": "44'",
+        "score": "2:0",
+        "body_part": "left",
+        "evidence": "left footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2013-09-07",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/377961",
+    "events": []
+  },
+  {
+    "date": "2013-09-10",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/365059",
+    "events": []
+  },
+  {
+    "date": "2013-10-12",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/381158",
+    "events": []
+  },
+  {
+    "date": "2014-03-05",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/384139",
+    "events": [
+      {
+        "event_id": "7262537",
+        "minute": "90'",
+        "score": "0:5",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      },
+      {
+        "event_id": "7261967",
+        "minute": "46'",
+        "score": "0:3",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      },
+      {
+        "event_id": "7261793",
+        "minute": "41'",
+        "score": "0:2",
+        "body_part": "left",
+        "evidence": "left footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2014-06-03",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/388747",
+    "events": [
+      {
+        "event_id": "7536027",
+        "minute": "26'",
+        "score": "1:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2014-06-12",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/383303",
+    "events": [
+      {
+        "event_id": "49109084",
+        "minute": "71'",
+        "score": "2:1",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      },
+      {
+        "event_id": "49109036",
+        "minute": "29'",
+        "score": "1:1",
+        "body_part": "left",
+        "evidence": "left footed shot"
+      },
+      {
+        "event_id": "20568903",
+        "minute": "71'",
+        "score": "2:1",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      },
+      {
+        "event_id": "20568809",
+        "minute": "29'",
+        "score": "1:1",
+        "body_part": "left",
+        "evidence": "left footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2014-06-23",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/383269",
+    "events": [
+      {
+        "event_id": "49117163",
+        "minute": "34'",
+        "score": "1:2",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      },
+      {
+        "event_id": "49117140",
+        "minute": "17'",
+        "score": "0:1",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      },
+      {
+        "event_id": "20575942",
+        "minute": "34'",
+        "score": "1:2",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      },
+      {
+        "event_id": "20575873",
+        "minute": "17'",
+        "score": "0:1",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2014-09-05",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/405636",
+    "events": []
+  },
+  {
+    "date": "2014-10-13",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/406222",
+    "events": []
+  },
+  {
+    "date": "2014-11-12",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/408002",
+    "events": [
+      {
+        "event_id": "7950294",
+        "minute": "60'",
+        "score": "0:4",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      },
+      {
+        "event_id": "7950044",
+        "minute": "20'",
+        "score": "0:1",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2015-03-26",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/409959",
+    "events": [
+      {
+        "event_id": "8291421",
+        "minute": "57'",
+        "score": "1:2",
+        "body_part": "left",
+        "evidence": "left footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2015-06-14",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/409851",
+    "events": [
+      {
+        "event_id": "22647838",
+        "minute": "5'",
+        "score": "1:1",
+        "body_part": "head",
+        "evidence": "header"
+      }
+    ]
+  },
+  {
+    "date": "2015-09-08",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/432804",
+    "events": [
+      {
+        "event_id": "8673493",
+        "minute": "67'",
+        "score": "0:4",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      },
+      {
+        "event_id": "8673372",
+        "minute": "51'",
+        "score": "0:2",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2016-09-01",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/431605",
+    "events": [
+      {
+        "event_id": "25847146",
+        "minute": "72'",
+        "score": "0:1",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2016-09-06",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/431601",
+    "events": [
+      {
+        "event_id": "25870466",
+        "minute": "74'",
+        "score": "2:1",
+        "body_part": "left",
+        "evidence": "left footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2016-10-06",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/431596",
+    "events": [
+      {
+        "event_id": "26154743",
+        "minute": "11'",
+        "score": "1:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2016-11-10",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/431584",
+    "events": [
+      {
+        "event_id": "26458090",
+        "minute": "45'+1'",
+        "score": "2:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2017-03-23",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/431575",
+    "events": [
+      {
+        "event_id": "27430277",
+        "minute": "74'",
+        "score": "1:3",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2017-03-28",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/431571",
+    "events": [
+      {
+        "event_id": "27457988",
+        "minute": "64'",
+        "score": "2:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2017-11-10",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/497294",
+    "events": [
+      {
+        "event_id": "29073187",
+        "minute": "10'",
+        "score": "0:1",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2018-06-03",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/509658",
+    "events": [
+      {
+        "event_id": "30554097",
+        "minute": "69'",
+        "score": "1:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2018-06-10",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/509659",
+    "events": [
+      {
+        "event_id": "30575948",
+        "minute": "63'",
+        "score": "0:2",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2018-06-22",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/498179",
+    "events": [
+      {
+        "event_id": "48432003",
+        "minute": "90'+7'",
+        "score": "2:0",
+        "body_part": "left",
+        "evidence": "left footed shot"
+      },
+      {
+        "event_id": "30598596",
+        "minute": "90'+7'",
+        "score": "2:0",
+        "body_part": "left",
+        "evidence": "left footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2018-07-02",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/498150",
+    "events": [
+      {
+        "event_id": "48427511",
+        "minute": "51'",
+        "score": "1:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      },
+      {
+        "event_id": "30618241",
+        "minute": "51'",
+        "score": "1:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-07",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/518200",
+    "events": [
+      {
+        "event_id": "30921385",
+        "minute": "43'",
+        "score": "0:2",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2018-09-11",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/523792",
+    "events": [
+      {
+        "event_id": "30939190",
+        "minute": "4'",
+        "score": "1:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2018-11-16",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/527623",
+    "events": [
+      {
+        "event_id": "31220518",
+        "minute": "76'",
+        "score": "1:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2019-09-06",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/539116",
+    "events": [
+      {
+        "event_id": "32710963",
+        "minute": "58'",
+        "score": "2:2",
+        "body_part": "left",
+        "evidence": "left footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2020-10-13",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/561090",
+    "events": [
+      {
+        "event_id": "34375212",
+        "minute": "90'+4'",
+        "score": "2:4",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      },
+      {
+        "event_id": "34375140",
+        "minute": "83'",
+        "score": "2:3",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      },
+      {
+        "event_id": "34374746",
+        "minute": "28'",
+        "score": "1:1",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2021-06-04",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/561066",
+    "events": [
+      {
+        "event_id": "36021327",
+        "minute": "90'+4'",
+        "score": "2:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2021-06-08",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/561061",
+    "events": [
+      {
+        "event_id": "36035038",
+        "minute": "4'",
+        "score": "0:1",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2021-06-13",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/560522",
+    "events": [
+      {
+        "event_id": "36052200",
+        "minute": "64'",
+        "score": "2:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2021-06-17",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/560515",
+    "events": [
+      {
+        "event_id": "36066254",
+        "minute": "68'",
+        "score": "2:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2021-09-09",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/561052",
+    "events": [
+      {
+        "event_id": "36546924",
+        "minute": "40'",
+        "score": "2:0",
+        "body_part": "left",
+        "evidence": "left footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2021-10-14",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/561042",
+    "events": [
+      {
+        "event_id": "36823325",
+        "minute": "10'",
+        "score": "1:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2022-03-24",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/561015",
+    "events": [
+      {
+        "event_id": "37860772",
+        "minute": "44'",
+        "score": "1:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2022-06-02",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/634866",
+    "events": [
+      {
+        "event_id": "38343241",
+        "minute": "57'",
+        "score": "1:3",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      },
+      {
+        "event_id": "38343116",
+        "minute": "42'",
+        "score": "1:2",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2022-06-06",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/634664",
+    "events": [
+      {
+        "event_id": "38366509",
+        "minute": "77'",
+        "score": "0:1",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2022-09-27",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/652193",
+    "events": [
+      {
+        "event_id": "39061905",
+        "minute": "29'",
+        "score": "3:1",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2022-12-05",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/633840",
+    "events": [
+      {
+        "event_id": "39525980",
+        "minute": "13'",
+        "score": "2:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2022-12-09",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/633843",
+    "events": [
+      {
+        "event_id": "39533434",
+        "minute": "105'+1'",
+        "score": "0:1",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2023-09-08",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/684578",
+    "events": [
+      {
+        "event_id": "41298793",
+        "minute": "90'+3'",
+        "score": "5:1",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      },
+      {
+        "event_id": "41298625",
+        "minute": "61'",
+        "score": "4:0",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-05",
+    "source_url": "https://www.espn.com/soccer/commentary/_/gameId/760504",
+    "events": [
+      {
+        "event_id": "49720160",
+        "minute": "90'+10'",
+        "score": "1:2",
+        "body_part": "right",
+        "evidence": "right footed shot"
+      }
+    ]
+  }
+]

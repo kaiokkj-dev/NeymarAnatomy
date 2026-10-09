@@ -28,3 +28,49 @@ Nenhuma linha sintética foi criada na tabela goals para representar totais. Os 
 
 Atualização de 09/10/2026: Santos ajustado para 160 gols conforme informação do responsável pelo projeto. A fonte do clube confirma os dois gols de Neymar no empate com o Flamengo em 08/10/2026. Número acumulado de partidas permanece pendente, sem reutilizar as 276 partidas da referência de julho.
 
+
+Assistências do Santos: 79 pela soma de 278 partidas no Transfermarkt, até 08/10/2026 (67 entre 2009–2013, 4 em 2025 e 8 em 2026). Campo utilizado: goalStatistics.assists, apenas participação played pelo clube 221, sem seleções e sem IDs duplicados. Fonte: https://www.transfermarkt.com/neymar/leistungsdatenverein/spieler/68290 . Referências de assistências de clubes diferentes ainda usam critérios que podem divergir; soma 294 não deve ser rotulada como total oficial uniforme.
+
+
+Partidas de referência: Santos atualizado para 278 pela contagem dos registros do Transfermarkt já usada nas assistências (225 na primeira passagem + 28 em 2025 + 25 em 2026). Soma das referências por time: 774, sem categorias de base ou seleção olímpica. Fontes e períodos diferentes; não rotular como total oficial universal.
+
+
+## Catálogo de anatomia — 09/10/2026
+
+Importados 461 eventos individuais em catalog-goals.json. A tabela de gols do Transfermarkt fornece o tipo de finalização; as datas e os totais de cada partida foram cruzados com sua ficha pública de desempenho. Os eventos usam a chave partida + placar, sem duplicatas. A importação é transacional e pode ser repetida sem criar novos gols.
+
+| Time | Catalogados | Direito | Esquerdo | Cabeça | Outra parte | Sem classificação |
+|---|---:|---:|---:|---:|---:|---:|
+| Santos |157|57|22|6|1|71|
+| Barcelona |105|76|22|7|0|0|
+| PSG |118|80|33|5|0|0|
+| Brasil |80|62|11|3|0|4|
+| Al-Hilal |1|0|1|0|0|0|
+
+Pênaltis, faltas e outros tipos que não informam o membro permanecem unknown. O único gol do Al-Hilal, contra Nassaji em 03/10/2023 aos 58 minutos, tem confirmação independente da Anadolu de finalização com o pé esquerdo. Santos mantém 160 na referência agregada fornecida pelo usuário, mas só 157 eventos individuais foram encontrados nesta fonte. Não fabricar os três registros faltantes.
+
+Executar: node --env-file=.env work/import-catalog-goals.mjs
+
+As divisões por parte do corpo são contagens identificadas no catálogo, não totais definitivos de carreira. Próximo trabalho: conferir em vídeo os 75 eventos desconhecidos e reconciliar a diferença de três gols do Santos.
+
+
+### Conferência do Barcelona
+
+22 eventos antes sem membro foram identificados por comentários de gols da ESPN (21 direito e 1 esquerdo). Dois registros já classificados foram corrigidos com confirmação adicional: Real Sociedad em 28/11/2015 aos 53 minutos (esquerdo) e Villarreal em 06/05/2017 aos 21 minutos (direito). Fontes e alterações estão em barcelona-anatomy-verifications.json. Duas divergências continuam em revisão: Real Sociedad aos 22 minutos e Alavés em 11/02/2017 aos 40 minutos. Mantida a classificação original nesses dois casos; 76/22/7 é a divisão atual do catálogo, ainda sujeita a essas conferências.
+
+
+### Conferência da seleção brasileira
+
+27 dos 31 registros pendentes tiveram o membro identificado em comentários de gols da ESPN, dados do Statbunker e reportagem do Korea JoongAng Daily. Divisão atual: 62 direito, 11 esquerdo, 3 cabeça e 4 pendentes, em 80 gols da seleção principal. Os quatro lances restantes são Argentina (19/09/2012), Japão (16/10/2012), Colômbia (05/09/2014) e o terceiro gol contra Japão (14/10/2014; data original no catálogo 13/10). Reprodução de vídeo no GE foi interrompida por publicidade; YouTube exigiu CAPTCHA. Não inferir membro pelo tipo pênalti/falta. Proveniência em brasil-anatomy-verifications.json.
+
+
+### Conferência do PSG
+
+44 gols pendentes classificados por descrição explícita nos comentários da ESPN. 117 dos 118 eventos encontraram correspondência de partida e placar para conferência. Não houve divergência com as classificações anteriores nos eventos correspondentes. Divisão: 80 direito, 33 esquerdo e 5 cabeça. Proveniência: psg-anatomy-verifications.json. Total 118 confirmado pelo comunicado oficial do PSG: https://en.psg.fr/teams/first-team/content/paris-saint-germain-thank-neymar-jr-a-club-legend .
+
+
+### Conferência do Santos
+
+27 gols pendentes classificados: 16 com descrições explícitas da ESPN e 11 em relatos das partidas. Divisão identificada: 57 direito, 22 esquerdo, 6 cabeça e 1 outra parte; 71 dos 157 eventos continuam pendentes. Todos os 21 gols catalogados de 2025 e 2026 agora têm parte do corpo. Os 71 restantes são da primeira passagem. Não estimar membros a partir de pênaltis, faltas ou pé dominante. Proveniência e lista de pendências em santos-anatomy-verifications.json.
+
+O catálogo contém 136 gols de 2009–2013, 11 em 2025 e 10 em 2026. O Santos publica 138 na primeira passagem, com critérios mais amplos que a lista competitiva. Essa diferença responde por dois gols; o terceiro da diferença entre 157 e a referência de 160 ainda não foi reconciliado. Nenhum evento foi inventado para fechar a soma.

@@ -1,0 +1,418 @@
+[
+  {
+    "date": "2009-03-18",
+    "url": "https://ge.globo.com/jogo/copa-do-brasil2009/2009-03-18/santos-rio-branco.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2009-03-25",
+    "url": "https://ge.globo.com/jogo/paulista2009/2009-03-25/santos-santo-andre.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2009-04-11",
+    "url": "https://ge.globo.com/jogo/paulista2009/2009-04-11/santos-palmeiras.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2010-01-17",
+    "url": "https://ge.globo.com/jogo/paulista2010/2010-01-17/rio-branco-santos.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2010-01-27",
+    "url": "https://ge.globo.com/jogo/paulista2010/2010-01-27/santos-barueri.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2010-01-30",
+    "url": "https://ge.globo.com/jogo/paulista2010/2010-01-30/santos-oeste.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2010-02-04",
+    "url": "https://ge.globo.com/jogo/paulista2010/2010-02-04/santo-andre-santos.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2010-02-07",
+    "url": "https://ge.globo.com/jogo/paulista2010/2010-02-07/sao-paulo-santos.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2010-03-10",
+    "url": "https://ge.globo.com/jogo/copa-do-brasil2010/2010-03-10/santos-naviraiense.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2010-03-14",
+    "url": "https://ge.globo.com/jogo/paulista2010/2010-03-14/santos-palmeiras.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2010-03-18",
+    "url": "https://ge.globo.com/jogo/copa-do-brasil2010/2010-03-18/remo-santos.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2010-04-04",
+    "url": "https://ge.globo.com/jogo/paulista2010/2010-04-04/sao-caetano-santos.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2010-04-14",
+    "url": "https://ge.globo.com/jogo/copa-do-brasil2010/2010-04-14/santos-guarani.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2010-04-18",
+    "url": "https://ge.globo.com/jogo/paulista2010/2010-04-18/santos-sao-paulo.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2010-04-25",
+    "url": "https://ge.globo.com/jogo/paulista2010/2010-04-25/santos-santo-andre.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2010-05-05",
+    "url": "https://ge.globo.com/jogo/copa-do-brasil2010/2010-05-05/santos-atletico-mg.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2010-05-16",
+    "opponent": "Ceará Sporting Club",
+    "url": "https://ge.globo.com/jogo/brasileirao2010/2010-05-16/santos-ceara.html",
+    "paragraphs": [
+      "Com a cabeça nas semifinais da Copa do Brasil, o Santos continua sem vencer no Campeonato Brasileiro. Em uma atuação apagada do ataque e outra preocupante exibição da defesa, o Peixe teve a ajuda da arbitragem para só empatar por 1 a 1 com o Ceará, neste domingo, na Vila Belmiro, pela segunda rodada. Nem mesmo Neymar brilhou. Ele marcou em um pênalti inexistente, mas desperdiçou outra cobrança no fim do jogo. Washington anotou para o time cearense, que soube segurar o Santos e chegou a quatro pontos. Os paulistas somam apenas dois. (assista aos melhores momentos do jogo no vídeo ao lado)",
+      "É bem verdade que o placar poderia ser outro não fossem dois erros do árbitro Ricardo Marques Ribeiro contra o Vozão no primeiro tempo. Ele anulou um gol legal de Anderson, de cabeça, sob a alegação de impedimento e marcou um pênalti que não aconteceu sobre Neymar, que resultou na igualdade paulista."
+    ]
+  },
+  {
+    "date": "2010-08-22",
+    "opponent": "Clube Atlético Mineiro",
+    "url": "https://ge.globo.com/jogo/brasileirao2010/2010-08-22/santos-atletico-mg.html",
+    "paragraphs": [
+      "O reencontro de Vanderlei Luxemburgo com a torcida santista não foi dos mais amigáveis. Eliminado da Copa do Brasil pelo Peixe, o treinador foi bastante hostilizado na Vila Belmiro. Se o clima nas arquibancadas não era bom para Luxa, o mesmo não se pode dizer em relação ao elenco do Peixe. Treinador da equipe na temporada passada, ele recebeu abraços e beijos de Neymar, a quem chamou de “louco” por ter recusado a proposta do Chelsea, da Inglaterra, e Paulo Henrique Ganso, que foi parabenizado por ostentar a faixa de capitão. Keirrison, desafeto dos tempos de Palmeiras, passou batido pelo ex-comandante."
+    ]
+  },
+  {
+    "date": "2010-08-25",
+    "opponent": "Grêmio Foot-Ball Porto Alegrense",
+    "url": "https://ge.globo.com/jogo/brasileirao2010/2010-08-25/gremio-santos.html",
+    "paragraphs": []
+  },
+  {
+    "date": "2010-09-22",
+    "opponent": "Sport Club Corinthians Paulista",
+    "url": "https://ge.globo.com/jogo/brasileirao2010/2010-09-22/santos-corinthians.html",
+    "paragraphs": [
+      "No encontro entre a crise e a estabilidade, a boa fase do Corinthians levou a melhor diante do momento turbulento do Santos. Com sua maior estrela em campo depois da confusão que culminou na demissão do técnico Dorival Júnior, o Peixe esteve duas vezes em vantagem no placar, mas permitiu que o Timão igualasse e virasse o marcador para 3 a 2, saindo da Vila Belmiro ainda mais fortalecido na briga pelo título do Campeonato Brasileiro. Durval e Neymar fizeram para a equipe da casa, enquanto Iarley, Elias e Paulo André, após Danilo tocar em impedimento, deram o triunfo ao clube da capital paulista."
+    ]
+  },
+  {
+    "date": "2010-10-17",
+    "opponent": "São Paulo Futebol Clube",
+    "url": "https://ge.globo.com/jogo/brasileirao2010/2010-10-17/sao-paulo-santos.html",
+    "paragraphs": [
+      "Com três minutos, o Peixe abriu o marcador. Neymar, em bela jogada pela esquerda, lançou Zé Eduardo. O atacante invadiu a área e bateu cruzado. Rogério Ceni falhou e rebateu para o meio, nos pés de Alan Patrick, que só empurrou para a rede. A resposta tricolor foi imediata. Três minutos depois, após cobrança de escanteio pela esquerda, a bola sobrou na direita para Miranda, que fintou Danilo e cruzou para Ricardo Oliveira, que, de cabeça, ajeitou para Dagoberto empatar."
+    ]
+  },
+  {
+    "date": "2010-11-21",
+    "url": "https://ge.globo.com/jogo/brasileirao2010/2010-11-21/goias-santos.html",
+    "error": "HTTPError"
+  },
+  {
+    "date": "2011-05-18",
+    "opponent": "Once Caldas",
+    "url": "https://ge.globo.com/jogo/libertadores-2011/18-05-2011/santos-once-caldas.html",
+    "paragraphs": [
+      "Quando Neymar recebeu a bola na meia esquerda e acertou um chute forte de direita, abrindo o placar logo aos 11 minutos de jogo, parecia que a fatura estava liquidada. Era lógico: o Once Caldas-COL sairia para o jogo, abriria espaços e o Peixe mataria a partida nos contra-ataques. Mas não há lógica no futebol. Os colombianos engrossaram, empataram e tornaram o duelo tenso. Por fim, valeu o resultado do primeiro confronto, quarta passada, em Manizales (COL), quando o Alvinegro venceu por 1 a 0. O jogo de volta, no Pacaembu, nesta quarta, terminou 1 a 1 (assista aos gols). Poderia ter sido muito mais se a equipe da Baixada Santista não perdesse tantos gols - desperdiçou até pênalti, com Neymar, que cobrou muito mal. Mas, enfim, está classificada para a semifinal da Taça Libertadores. Agora, aguarda o vencedor de Cerro Porteño-PAR e Jaguares-MEX, que se enfrentam nesta quinta, em Assunção - no jogo de ida, no México, empate em 1 a 1. O time colombiano se despede da competição continental sem perder fora de casa.",
+      "Pois aos 11, Danilo, que começou o jogo como lateral-direito ocupando a vaga do machucado Jonathan, fez o diferente. Ele arriscou um drible seco pelo meio e abriu o clarão. Avançou em direção ao gol e tentou o passe para Zé Love. A zaga desviou e a bola sobrou para Neymar. O astro santista recebeu pela meia esquerda e chutou forte de direita, acertando o canto esquerdo do gol. Parecia que o caminho à semifinal estava livre. Não estava."
+    ]
+  },
+  {
+    "date": "2011-08-21",
+    "opponent": "Esporte Clube Bahia",
+    "url": "https://ge.globo.com/jogo/brasileirao2011/21-08-2011/bahia-santos.html",
+    "paragraphs": []
+  },
+  {
+    "date": "2011-10-19",
+    "opponent": "Botafogo de Futebol e Regatas",
+    "url": "https://ge.globo.com/jogo/brasileirao2011/19-10-2011/santos-botafogo.html",
+    "paragraphs": [
+      "O Santos, mais retraído, tentava explorar contra-ataques. A estratégia santista quase deu resultado aos 15 minutos, quando Rentería recebeu pelo meio, livre, avançou e deu para Neymar, que entrava pela esquerda. O camisa 11 emendou de esquerda, mas errou o alvo por pouco. Esse lance acordou o Bota. Trocando passes na intermediária, com Felipe Menezes, Maicossuel, Cortês pela esquerda e Herrera caindo pela direita, o time do Rio encurralou o Santos e passou a ameaçar o gol de Rafael, que apareceu bem espalmando chute de Felipe. Loco Abreu, na área, pedia insistentemente a bola pelo alto, mas ela não vinha."
+    ]
+  },
+  {
+    "date": "2011-10-23",
+    "opponent": "CR Flamengo",
+    "url": "https://ge.globo.com/jogo/brasileirao2011/23-10-2011/flamengo-santos.html",
+    "paragraphs": [
+      "Ali, pela direita, o Flamengo forçava o jogo desde o começo, sem sucesso. O Santos até dava liberdade. O time, desfalcado de Ganso, Elano e Léo, contundidos, do artilheiro Borges, suspenso, e do técnico Muricy Ramalho, que teve alta no sábado após crise de hérnia de disco, procurava cadenciar o jogo  no toque de bola e apostar no talento de Neymar e na velocidade de Allan Kardec e Rentería. E foi o camisa 9 santista quem teve a primeira chance de gol, aos 21 minutos. Impedido, arrancou e bateu pelo alto, obrigando Felipe a boa defesa, mandando para escanteio. Na cobrança de Neymar, o goleiro deu um susto ao sair e não achar a bola.",
+      "O camisa 11 começou o seu show particular pouco depois da metade da primeira etapa, quando deu drible espetacular em Willians e sofreu falta em seguida. Pouco depois, os dois jogadores deram susto ao se chocarem, batendo cabeça em jogada pelo alto, mas ficou tudo bem. A essa altura, o Flamengo, que não conseguia criar oportunidades, diminuía o seu ímpeto, e o Peixe começava a alugar o meio-campo. Arouca, principalmente, procurava ditar o ritmo. E bolas para Neymar, sempre seguidas de gritaria da torcida feminina presente ao Engenhão. Numa dessas jogadas, pela direita, o camisa 11 costurou Alex Silva, Junior Cesar e Maldonado, mas perdeu o equilíbrio na sequência.",
+      "O Flamengo seguiu na pressão, comandado pelo veloz Thomás. O Santos, em contra-ataque, assustava, tanto que quase fez o segundo, com Neymar obrigando Felipe a outra boa defesa. Aos 44, o Peixe ainda teve um gol de Edu Dracena corretamente anulado por impedimento. Mas o jogo ficou mesmo no empate."
+    ]
+  },
+  {
+    "date": "2011-10-29",
+    "opponent": "Atlético Paranaense",
+    "url": "https://ge.globo.com/jogo/brasileirao2011/29-10-2011/santos-atletico-pr.html",
+    "paragraphs": [
+      "O empate serviu como um choque para o Santos. Imediatamente, o Peixe foi para cima e garantiu a vitória em apenas dois minutos. Aos nove, Edu Dracena foi empurrado por Cleber Santana na área. Neymar bateu o pênalti e fez 2 a 1. Logo em seguida, mais um dele. O camisa 7 foi lançado em velocidade, o zagueiro Manoel caiu na disputa e a bola sobrou limpa para o craque bater no canto direito de Renan. Com a vitória praticamente assegurada, o Santos passou a jogar tranquilo. Neymar ignorou a vantagem no placar e ainda encontrou disposição para mais. Aos 24, ele disparou pela intermediária, passou por Deivid, invadiu a área e chutou sem chances para o goleiro. Golaço! E poderia ter sido mais. O Santos ainda perdeu, pelo menos, mais duas chances claras de marcar. O Atlético-PR respondeu com uma cabeçada de Nieto e uma cobrança de falta de Paulo Baier na trave, mas nada capaz de tirar o brilho da goleada do Peixe e de Neymar. Abre o olho, Messi!"
+    ]
+  },
+  {
+    "date": "2011-11-06",
+    "opponent": "Clube de Regatas Vasco da Gama",
+    "url": "https://ge.globo.com/jogo/brasileirao2011/06-11-2011/santos-vasco.html",
+    "paragraphs": [
+      "O Santos entrou com fome. O clima era favorável ao time alvinegro: estádio lotado, torcida motivada pelo retorno de Paulo Henrique Ganso, após 63 dias afastado por lesão, e, principalmente, pela presença de Neymar, que disputou seu primeiro jogo depois de ser indicado à Bola de Ouro da Fifa. Logo aos 3 minutos de jogo, o astro, numa cobrança de falta, abriu o placar, contando com a colaboração de Renato Silva, que desviou e tirou a bola do alcance de Fernando Prass. A intervenção de Renato foi tão sutil, que a arbitragem deu gol para o jogador do Peixe. É o 97º gol de Neymar, que está a três do 100º. O Peixe seguia em cima, sufocando o Vasco, criando chances, mais na base do abafa do que em jogadas organizadas. Aos poucos, porém, a equipe carioca foi equilibrando as ações. Acertou a marcação no meio de campo, vigiando bem Neymar. Os santistas tentavam entrar tocando, mas paravam na zaga e também no péssimo estado do gramado da Vila, que já foi referência, mas atualmente está bastante castigado. A equipe da Colina ameaçou pela primeira vez aos 12 minutos, quando Juninho cobrou escanteio da direita e Elton apareceu livre no primeiro pau para escorar. Rafael, no reflexo, espalmou. O Vasco percebeu que o caminho era pelo alto. Passou a cruzar bolas na área do Santos, sempre com perigo. Aos 23, numa dessas jogadas, Diego Souza subiu mais alto que Danilo e escorou bem, estufando as redes. O juiz André Luiz Castro, porém, invalidou o lance, considerando que o vascaíno fez carga no santista, mas o lance, aparentemente, foi normal. O camisa 10 carioca ficou inconformado. Com o passar do tempo, o ímpeto dos dois times foi diminuindo e o jogo se tornou apenas morno: o Vasco tentava ir para cima, mas não conseguia concluir as jogadas. O Santos buscava os contra-ataques, mas errava o último passe. O estádio só voltou a explodir aos 37 minutos. As duas torcidas vibraram com o gol do América-MG sobre o Corinthians, em Sete Lagoas. Os santistas festejaram pela rivalidade. Os vascaínos, porque seu time luta pela liderança do Brasileirão com a equipe do Parque São Jorge. Peixe se garante no contra-ataque",
+      "O Vasco voltou para o segundo tempo aceso e partiu para a pressão. Logo aos dois minutos, o ímpeto carioca provocou um lance polêmico: Fagner apareceu livre pela lateral direita e cruzou. A bola bateu na mão de Durval. O árbitro considerou o toque do santista acidental, para desespero dos vascaínos, que reclamaram muito o que consideraram pênalti não marcado. A estratégia do Santos era clara: atrair o adversário e surpreender nos contra-ataques. E houve chances para isso. Aos 8, a equipe da casa perdeu uma chance incrível: Ganso lançou Neymar, que partiu livre em direção ao gol. Quando chegou de frente para Fernando Prass, rolou para Borges. O artilheiro tentou o toque de primeira. O goleiro estava batido, mas Fagner apareceu para salvar o que seria o segundo gol santista.",
+      "Neymar, liso como sempre, era o responsável pelas principais investidas do Peixe, que parecia que mataria o jogo em contra-golpes a qualquer momento. Aos 13, ele recebeu pela esquerda, livrou-se de dois marcadores e inverteu para Danilo, que descia livre pela direita. O ala acertou uma bomba. Fernando Prass espalmou. O Vasco parecia entregue e o Santos perdia chances. Aos 17, Neymar entortou Renato Silva, abriu espaço e rolou para Ganso, que emendou de direita e errou o alvo.",
+      "O técnico Cristóvão Borges mexia no time tentando aumentar o poder de fogo. Elton, Eder Luis e Julinho foram substituídos, respectivamente, por Bernardo, Leandro e Diego Rosa. Pouco adiantou. Além de não conseguir criar, o Vasco deixava espaços perigosos para o Santos criar jogadas. Aos 29, Adriano roubou a bola no meio de campo e deu para Neymar, que avançou e abriu para Borges. O artilheiro, que andava apagado, acertou um tiro forte, certeiro, de pé direito, no ângulo esquerdo alto de Prass."
+    ]
+  },
+  {
+    "date": "2012-02-05",
+    "opponent": "Sociedade Esportiva Palmeiras",
+    "url": "https://ge.globo.com/jogo/paulista-2012/05-02-2012/santos-palmeiras.html",
+    "paragraphs": [
+      "O clássico prometia ser de Neymar. No dia de seu aniversário de 20 anos, o atacante do Santos colocou a cereja em seu próprio bolo com seu centésimo gol como profissional. O Palmeiras, porém, não queria saber de cerimônia. E acabou com a festa do santista com uma virada de tirar o fôlego, fazendo 2 a 1 na abafada Presidente Prudente. Os gols de Fernandão (de cabeça) e Maranhão (contra) foram marcados aos 43 e 45 do segundo tempo, para desespero de Neymar.",
+      "Brilhos de Neymar x forte marcação palmeirense Antes de a bola rolar, o técnico Luiz Felipe Scolari reclamou muito do forte calor, típico de Presidente Prudente. Ele disse que os jogadores teriam de dar o “couro todo”. E seus comandados ouviram o recado. Desde o apito inicial, os palmeirenses armaram uma forte marcação homem a homem. Felipão até escalou o volante João Vitor em vez do meia Patrik para reforçar a defesa e deixar Valdivia mais solto no ataque.",
+      "Mas o dia era mesmo dele, do aniversariante Neymar. O amigo Paulo Henrique Ganso tratou de presentear o atacante com um passe na medida em uma cobrança de falta. Bem posicionado, aos 24 minutos, Neymar não perdoou. De cabeça, assim como diante do Mogi Mirim, ele fez seu centésimo gol como profissional para explodir o Prudentão.",
+      "Aos 43, Assunção, em cobrança de escanteio, colocou a bola na cabeça de Fernandão para empatar. Aos 45, o improvável: Juninho arriscou um chute despretensioso da lateral esquerda, e Maranhão tentou cortar, mas acabou desviando para a rede. Uma virada de tirar o fôlego na abafada Prudente, no dia que poderia ter sido de Neymar, mas acabou sendo do Verdão."
+    ]
+  },
+  {
+    "date": "2012-02-09",
+    "opponent": "Botafogo FC",
+    "url": "https://ge.globo.com/jogo/paulista-2012/09-02-2012/botafogo-sp-santos.html",
+    "paragraphs": [
+      "Para quem tem Neymar, 15 minutos são o bastante para transformar uma má atuação em goleada. E o torcedor santista pôde comemorar: finalmente, o Peixe estreou no ano do centenário. Lento, apático e sem objetividade na primeira etapa, o time ouviu uma bronca do técnico Muricy Ramalho no intervalo e voltou ligado do vestiário. Estavam todos tão \"elétricos\" que acenderam a estrela de Neymar. Resultado: com três gols do craque, o Peixe venceu o valente Botafogo, por 4 a 1, nesta quinta-feira, no estádio Santa Cruz, em Ribeirão Preto. Felipe Anderson marcou o quarto já nos acréscimos do segundo tempo.",
+      "A atuação santista, no entanto, não foi das melhores. De bom, a estreia do lateral Fucile – que entrou no segundo tempo e deu novo poder ofensivo ao time – e a capacidade de Neymar em decidir uma partida. O uruguaio, inclusive, deve ser titular na estreia do time na Libertadores, quarta-feira, contra o Strongest-BOL. O meia Camilo, após boa jogada de ataque do Botafogo, marcou o gol do time da casa após falha defensiva do Alvinegro. Neymar, de cabeça, de pênalti, e por cobertura marcou seus 101º, 102º e 103º gols na carreira.",
+      "Com Rentería, Muricy tentou dar mais presença de área à equipe santista. Alan Kardec voltava para buscar a bola e Neymar, quando escapava da marcação do estreante Alessandro,  também tentava jogadas de efeito. Quem tem uma estrela do calibre de Neymar sabe que a qualquer instante o destino do jogo pode mudar. Mesmo quando ele parecia em noite apagada, brilhou mais uma vez. Em cobrança de falta pela esquerda de Paulo Henrique Ganso, Neymar subiu sozinho na área e cabeceou para o fundo do gol – quase uma reprise do 100º gol, marcado contra o Verdão.",
+      "Como se alguém ainda duvidasse, na jogada seguinte, o camisa 11 mostrou mais uma vez por que é um dos melhores do mundo. Logo na saída de bola, roubou do Botafogo, fez linda jogada individual e foi derrubado na grande área. Pênalti sofrido, bola no canto e mais um gol dele. Já no fim do jogo, o craque ainda recebeu de Felipe Anderson, apareceu sozinho na pequena área e tocou por cobertura, para matar o jogo. Virou goleada. No minuto seguinte, a jogada se inverteu: Neymar deixou para Felipe Anderson fechar a conta. Em 15 minutos, 4 a 1 para o Santos. Ou melhor, 4 a 1 para Neymar."
+    ]
+  },
+  {
+    "date": "2012-02-25",
+    "opponent": "Associação Atlética Ponte Preta",
+    "url": "https://ge.globo.com/jogo/paulista-2012/25-02-2012/santos-ponte-preta.html",
+    "paragraphs": [
+      "Logo após ser vazado, o Santos partiu para cima para ampliar o placar. Neymar quase marcou pela esquerda. Na sequência, dois gols. Ambos fruto de bolas paradas. No primeiro, Borges cabeceou, Lauro defendeu, Guilherme tentou afastar, mas a bola explodiu em Guilherme antes de entrar - gol contra. Dois minutos depois, aos 13, Edu Dracena escorou cobrança de falta e marcou."
+    ]
+  },
+  {
+    "date": "2012-03-07",
+    "opponent": "Sport Club Internacional",
+    "url": "https://ge.globo.com/jogo/libertadores-2012/07-03-2012/santos-internacional.html",
+    "paragraphs": [
+      "Logo aos seis minutos, o camisa 11 deu uma amostra do que viria pela frente. Como de costume, sempre pela esquerda, passou como quis pelo zagueiro Rodrigo Moledo e tocou para Juan. Rapidamente, o lateral virou para Ibson, que finalizou muito longe. Em seguida, uma linha de passe alvinegra envolveu facilmente o Inter. Ibson achou o \"pivô\" Edu Dracena, que rolou para Juan. Com ótima visão de jogo, o lateral achou Neymar livre pela esquerda. O camisa 11 soltou o pé de direita, mas Muriel salvou, aos dez.",
+      "Mesmo assim, o Santos ainda teve mais boas chances para ampliar. A combinação Ganso e Arouca funcionou duas vezes. Na primeira, o volante achou Neymar, que invadiu a área e soltou a bomba de pé esquerdo, na trave. Na segunda, Ibson não conseguiu completar o cruzamento do camisa 5. Antes do fim, Juan ainda teve mais uma boa oportunidade, sempre em jogada com Neymar, mas a bola passou perto da trave esquerda de Muriel."
+    ]
+  },
+  {
+    "date": "2012-03-18",
+    "opponent": "São Paulo Futebol Clube",
+    "url": "https://ge.globo.com/jogo/paulista-2012/18-03-2012/sao-paulo-santos.html",
+    "paragraphs": []
+  },
+  {
+    "date": "2012-03-22",
+    "opponent": "Club Juan Aurich",
+    "url": "https://ge.globo.com/jogo/libertadores-2012/22-03-2012/santos-juan-aurich.html",
+    "paragraphs": [
+      "Com a bola rolando, um bloco de jogadores vestidos de vermelho se formou em frente à área do \"Ciclón\", que praticamente não ultrapassou o meio de campo durante a etapa inicial. Para furar a retranca, o Peixe tentou de tudo um pouco. Começou com troca de passes e tentativas de lances ousados de Neymar, caçado de forma feroz pelos peruanos. A sequência de pancadas fez o camisa 11 mancar por diversas vezes e até pular para evitar mais faltas. Tudo isso após o craque torcer o pé esquerdo no treinamento da última quarta-feira.",
+      "Com a forte chuva, porém, o jeito foi usar a bola parada para abrir o placar. Neymar cobrou escanteio pela esquerda na cabeça de Ganso (a jogada ensaiada já deu certo outras vezes no ano). Livre, o camisa 10 escorou de cabeça, e Penny espalmou nos pés de Edu Dracena, que só teve o trabalho de fuzilar para as redes, aos 14 minutos.",
+      "Em seguida, não houve escapatória para o Juan Aurich. Novamente pela esquerda, setor mais explorado pelo Santos durante a partida, Borges fez boa jogada e cruzou para a entrada da área. De esquerda, Neymar bateu colocado e só deslocou Penny, ampliando o placar. Na comemoração, o craque cumpriu a promessa feita ao garoto Matheus Souto , criança de seis anos que sofre de leucemia, e fez a dancinha \"ensinada\" pelo garoto."
+    ]
+  },
+  {
+    "date": "2012-03-29",
+    "opponent": "Guaratinguetá (SP)",
+    "url": "https://ge.globo.com/jogo/paulista-2012/29-03-2012/santos-guaratingueta.html",
+    "paragraphs": [
+      "\"Neymar, sempre ele, o menino de ouro da Vila Belmiro. É ripa na chulipa e pimba na gorduchinha. Robinho? Ficou para trás, o novo príncipe da Vila tem nome: Neymar!\". Osmar Santos, histórico personagem do rádio brasileiro, bem que poderia ter narrado o 95º gol do camisa 11, que o fez ultrapassar Robinho e virar o quarto maior artilheiro do Peixe após a era Pelé - está atrás apenas de Serginho Chulapa e João Paulo (com 104), e Juary (101). No geral, porém, Neymar ainda está bem atrás no ranking da artilharia - o Rei tem 1.091 gols pelo Peixe, enquanto Pepe fez 405 e Coutinho, 370. Neymar vem na 23ª posição.",
+      "Estava fácil, e Neymar sentiu isso. Enquanto o Guaratinguetá assustava raramente, com Careca de cabeça, o craque aproveitava para aprontar mais das suas. Após sofrer falta dura e discordar do árbitro em relação ao local onde deveria bater a falta, ele recebeu toque curto de Ganso e abusou. Três dribles seguidos em cima de Pimenta, passe no fundo para Juan e cruzamento (mais parecido com passe) na cabeça de Borges: 2 a 0, aos 25 minutos.",
+      "Numa roubada de bola, quase saiu o quinto gol. Borges desarmou Anderson Rocha, tocou para Ganso, e o camisa 10 enfiou belo passe para Neymar, na cara do gol. A finalização de esquerda, porém, não foi suficiente para vencer Jaílson.",
+      "Daí em diante, o treinador do Peixe fez mais trocas: Felipe Anderson entrou no lugar de Ibson e Maranhão substituiu Fucile. Ainda houve tempo para mais um belo passe de Neymar para Borges, mas novamente o centroavante não teve sucesso."
+    ]
+  },
+  {
+    "date": "2012-04-08",
+    "opponent": "AD São Caetano (SP)",
+    "url": "https://ge.globo.com/jogo/paulista-2012/08-04-2012/sao-caetano-santos.html",
+    "paragraphs": []
+  },
+  {
+    "date": "2012-04-15",
+    "opponent": "Grêmio Catanduvense (SP)",
+    "url": "https://ge.globo.com/jogo/paulista-2012/15-04-2012/santos-catanduvense.html",
+    "paragraphs": [
+      "Apesar da fraca chuva na Baixada, os jogadores do Santos continuaram na pressão, mas com poucas jogadas efetivas. Com o time inteiro na defesa, incluindo os atacantes Samuel e Luis Mario, o Catanduvense dificultou a vida do alvinegro. Isso até o craque aparecer para começar a desequilibrar. Aos 23 minutos, em jogada de Elano, Neymar desviou de cabeça para Ganso, que dominou fora da área, olhou o goleiro Filippi adiantado e deu um toque de categoria, por cobertura, para marcar um golaço e levar a torcida ao delírio.",
+      "Apesar da facilidade, o Santos manteve o ritmo alucinante até os minutos finais. Com boa atuação dos protagonistas Neymar, Ganso e Borges, o Alvinegro conseguiu mais dois gols, fato que deixou a equipe com o melhor ataque do Paulistão: 46 gols."
+    ]
+  },
+  {
+    "date": "2012-04-19",
+    "opponent": "Club The Strongest",
+    "url": "https://ge.globo.com/jogo/libertadores-2012/19-04-2012/santos-the-strongest.html",
+    "paragraphs": [
+      "Quando a angústia tomava conta de todos e dava nó na garganta do torcedor pelo empate, Alan Kardec salvou. O predestinado atacante reserva aproveitou cruzamento de Neymar, pela esquerda, e cabeceou para o fundo da rede, aos 40 minutos. Enfim, o alívio.",
+      "Dois minutos depois, veio o golpe de misericórdia. Neymar, pela esquerda, escapou em velocidade, deslocou Vaca com um tapa de direita: 2 a 0. No sufoco, o Peixe garantiu a primeira colocação do Grupo 1."
+    ]
+  },
+  {
+    "date": "2012-04-29",
+    "opponent": "São Paulo Futebol Clube",
+    "url": "https://ge.globo.com/jogo/paulista-2012/29-04-2012/sao-paulo-santos.html",
+    "paragraphs": [
+      "Pobre do torcedor que se atrasou no banheiro ou na pipoca no intervalo. Não viu Paulo Miranda dar joelhada na bola e perder gol incrível. Não viu Neymar (sim, é verdade!) acertar a trave com Denis deitado no chão. Não viu o gol anulado de Alan Kardec, após falta de Edu Dracena em Paulo Miranda.Talvez não tenha visto Willian José, após bela jogada de Lucas, chutar por cima. Mas teve tempo de ver o centroavante se redimir. Impedido, recebeu de Casemiro, ajeitou para o pé esquerdo e bateu firme. Vacilo do bandeira, festa nas arquibancadas do Morumbi.",
+      "A pressão esfriou. O Santos, mesmo com o peso de trocar Rafael, lesionado, por Aranha, equilibrou a posse de bola. A torcida tricolor passou a cantar mais baixo e Neymar teve ajuda inesperada para, pela terceira vez em 2012, fazer três gols num jogo. Ajuda de Denis, que deixou a barba crescer para impor respeito. Não impôs. As mãos fraquejaram no chute do craque e todos passaram a esperar o apito final. A expulsão de Cícero em falta sobre o camisa 11 só serviu para dar tempero à sua atuação."
+    ]
+  },
+  {
+    "date": "2012-05-06",
+    "opponent": "Guarani Futebol Clube (SP)",
+    "url": "https://ge.globo.com/jogo/paulista-2012/06-05-2012/guarani-santos.html",
+    "paragraphs": [
+      "Pode parecer estranho, mas a mistura de pagode com música clássica faz bem para os ouvidos. Principalmente para os santistas. Com Neymar no pandeiro e Ganso na batuta, a equipe da Vila Belmiro deu um enorme passo para a conquista do Paulistão neste domingo. Com gols de seus craques, venceu o Guarani por 3 a 0.",
+      "Ele veio aos 46 minutos, quando Neymar recebeu na área, matou no peito, tirou dois marcadores e chutou. Estava definida a partida."
+    ]
+  },
+  {
+    "date": "2012-05-10",
+    "opponent": "Bolívar La Paz",
+    "url": "https://ge.globo.com/jogo/libertadores-2012/10-05-2012/santos-bolivar.html",
+    "paragraphs": [
+      "Minutos antes de a bola rolar, Robinho enviou mensagem surpresa a Neymar. Por meio do telão da Vila Belmiro, o Rei das Pedaladas pediu para o camisa 11 arrebentar e marcar três gols. Também disse que o amava. Da Itália, o ídolo do Alvinegro certamente não esperava que todo o time levaria suas palavras tão ao pé da letra.",
+      "A tradicional \"pegada de Libertadores\" era nítida. A missão era bem clara: golear o adversário a qualquer custo. Logo aos cinco minutos, o agraciado foi Elano. Atrás de um gol há tempos, o camisa 8, enfim, desencantou. Do jeito que gosta, recebeu passe de cabeça de Neymar e soltou o pé de fora da área. Sem a altitude de 3.660 metros, o goleiro Arguello parece ter sido confundido com a curva da bola, que morreu nas redes. Na comemoração, Elano ajoelhou no gramado com as caneleiras nas mãos, em homenagem às filhas Maria Clara e Maria Tereza, cujos nomes estão gravados no objeto.",
+      "Nem bem deu a saída de bola e o Bolívar já sofria outro gol. Alan Kardec dominou na intermediária, avançou e bateu cruzado de fora da área, sem chances para Arguello. Quando parecia que o massacre já havia terminado, Neymar novamente deu o ar da graça. Pela esquerda, ele achou espaço na defesa do Bolívar, invadiu a área e só deu um leve tapa de direita, definindo os 5 a 0 no primeiro tempo."
+    ]
+  },
+  {
+    "date": "2012-05-13",
+    "opponent": "Guarani Futebol Clube (SP)",
+    "url": "https://ge.globo.com/jogo/paulista-2012/13-05-2012/santos-guarani.html",
+    "paragraphs": [
+      "Ao contrário da década de 1960, privilegiados são os futuros pais que terão fotos e vídeos mil para mostrar aos herdeiros uma equipe que faz história a cada semana. Que faz história ao respeitar ídolos como Léo, que entrou em campo só para ser homenageado. Que faz história ao manter no futebol brasileiro o gênio Neymar, a quem a Europa pensou que levaria quando bem entendesse. Que faz história ao tornar ainda maior um Muricy Ramalho que já era enorme com seu currículo repleto de conquistas."
+    ]
+  },
+  {
+    "date": "2012-06-20",
+    "opponent": "Sport Club Corinthians Paulista",
+    "url": "https://ge.globo.com/jogo/libertadores-2012/20-06-2012/corinthians-santos.html",
+    "paragraphs": []
+  },
+  {
+    "date": "2012-08-16",
+    "opponent": "Figueirense Futebol Clube",
+    "url": "https://ge.globo.com/jogo/brasileirao2012/16-08-2012/figueirense-santos.html",
+    "paragraphs": []
+  },
+  {
+    "date": "2012-08-25",
+    "opponent": "Sociedade Esportiva Palmeiras",
+    "url": "https://ge.globo.com/jogo/brasileirao2012/25-08-2012/palmeiras-santos.html",
+    "paragraphs": [
+      "O Peixe fecha o primeiro turno do Brasileirão na décima posição, com 26 pontos. Ainda está longe dos líderes, mas o plano de voltar à Taça Libertadores fica mais palpável a cada rodada - graças a Neymar, como sempre. As duas vitórias seguidas em clássicos (domingo passado, o Peixe venceu o Corinthians) deram fôlego à equipe de Muricy Ramalho, que conquistou sua terceira vitória consecutiva de virada na competição nacional, contra Figueirense (3 a 1), Corinthians  (3 a 2) e agora o Palmeiras.",
+      "Um Palmeiras tranquilo, apesar dos 11 desfalques e do time remendado. Um Santos nervoso, apesar de Neymar e Ganso. O meia, aliás, já começou o clássico pressionado por gritos da torcida alvinegra, que pediu respeito à camisa do Peixe - protesto contra as declarações do jogador, que disse que seria um prazer atuar no São Paulo, que apresentou proposta para contratá-lo. Em campo, o camisa 10 sumiu, vigiado de perto por Henrique. O primeiro tempo foi todo da equipe de Luiz Felipe Scolari, bem organizada taticamente e com muito mais volume de jogo no ataque."
+    ]
+  },
+  {
+    "date": "2012-09-16",
+    "opponent": "Coritiba Foot Ball Club",
+    "url": "https://ge.globo.com/jogo/brasileirao2012/16-09-2012/coritiba-santos.html",
+    "paragraphs": []
+  },
+  {
+    "date": "2012-10-17",
+    "opponent": "Clube Atlético Mineiro",
+    "url": "https://ge.globo.com/jogo/brasileirao2012/17-10-2012/santos-atletico-mg.html",
+    "paragraphs": [
+      "Nas arquibancadas, a torcida do Atlético-MG fazia menção de reverência ao ídolo Ronaldinho Gaúcho. Dentro de campo, antes do início do jogo, o próprio Neymar repetiu o gesto antes de cumprimentar R49 e trocou palavras ao pé do ouvido com o meia. Quando a bola rolou, o jovem astro, completando 200 jogos pelo Santos, fez um golaço, mas não foi decisivo. Ronaldinho também ajudou o Galo com passes, e no fim o placar foi de 2 a 2 na noite desta quarta-feira, na Vila Belmiro. Apesar disso, valeu muita a presença do atacante de moicano, que enfrentou maratona vindo da Polônia, onde a Seleção venceu o Japão por 4 a 0, na terça-feira, até o Brasil.",
+      "Não deu tempo de respirar. Quando se tem Ronaldinho Gaúcho de um lado e Neymar do outro, o torcedor não pode hesitar. E foi isso o que aconteceu na Vila Belmiro. Avassalador e inspirado pela presença de seu astro, o Santos só deixou o Atlético-MG encostar na bola depois de estufar a rede adversária. Desde o apito inicial do árbitro Héber Roberto Lopes, foram poucos toques até o Peixe abrir o placar. Em 19 segundos, Léo lançou Neymar, que tocou de cabeça pela esquerda para Felipe Anderson. O meia foi até a linha de fundo e cruzou na medida para Miralles, de primeira, vencer Victor: 1 a 0 no gol mais rápido do Brasileirão deste ano.",
+      "Ameaçava-se uma goleada santista, mas do outro lado estava o Atlético-MG, vice-líder e com astros do porte de Ronaldinho Gaúcho e Bernard. Cuca escalou pela primeira vez no Brasileirão três volantes, mas o plano de segurar Neymar já parecia ter ido por água abaixo. Foi então que a partida ganhou contornos de jogaço. A reação mineira começou aos 17. Pela direita, Serginho deu belo drible da vaca em Léo e cruzou na cabeça de Bernard, que diminuiu a vantagem dos donos da casa: 2 a 1.",
+      "Neste meio tempo, o Santos só ameaçou em uma falta cobrada por Neymar, à esquerda de Victor. Nitidamente o Peixe perdeu o ritmo da etapa inicial. Percebendo a queda de produção, Muricy Ramalho também mexeu: substituiu Felipe Anderson por Bernardo. Na primeira jogada do meia, ele cruzou bola perigosa pela direita, e Neymar dividiu com Victor, mas a zaga do Galo afastou o rebote."
+    ]
+  },
+  {
+    "date": "2012-12-01",
+    "opponent": "Sociedade Esportiva Palmeiras",
+    "url": "https://ge.globo.com/jogo/brasileirao2012/01-12-2012/santos-palmeiras.html",
+    "paragraphs": [
+      "Neymar deixou de lado o moicano e apresentou um penteado diferente, meio estranho, na saideira da temporada 2012. A cabeça mudou, mas os pés não. Graças aos gols dele, o Santos termina o Brasileirão com 53 pontos, em posição intermediária, mas abaixo das expectativas de quem buscava vaga na Taça Libertadores."
+    ]
+  },
+  {
+    "date": "2013-01-19",
+    "opponent": "São Bernardo FC",
+    "url": "https://ge.globo.com/jogo/campeonato-paulista-2013/19-01-2013/sao-bernardo-santos.html",
+    "paragraphs": []
+  },
+  {
+    "date": "2013-01-23",
+    "opponent": "Botafogo FC",
+    "url": "https://ge.globo.com/jogo/campeonato-paulista-2013/23-01-2013/santos-botafogo-sp.html",
+    "paragraphs": []
+  },
+  {
+    "date": "2013-01-27",
+    "opponent": "CA Bragantino ",
+    "url": "https://ge.globo.com/jogo/campeonato-paulista-2013/27-01-2013/bragantino-santos.html",
+    "paragraphs": []
+  },
+  {
+    "date": "2013-02-03",
+    "opponent": "São Paulo Futebol Clube",
+    "url": "https://ge.globo.com/jogo/campeonato-paulista-2013/03-02-2013/santos-sao-paulo.html",
+    "paragraphs": [
+      "Neymar cruza da esquerda, e Miralles, livre na área, cabeceia para fazer o terceiro gol do Santos e acabar com a reação do São Paulo.",
+      "Toda a euforia criada pelos tricolores acabou logo em seguida, aos 24. O Santos chegou ao terceiro gol e praticamente garantiu a vitória. Montillo cobrou escanteio, Neymar ajeitou e cruzou novamente. Miralles apareceu por trás da zaga e desviou de cabeça para tirar o Peixe do sufoco."
+    ]
+  },
+  {
+    "date": "2013-02-10",
+    "opponent": "Paulista FC (SP)",
+    "url": "https://ge.globo.com/jogo/campeonato-paulista-2013/10-02-2013/santos-paulista.html",
+    "paragraphs": [
+      "O carnaval não foi de festa para a torcida do Santos. Muito pelo contrário. O fã que saiu de casa no feriado sofreu com a chuva, viu um Paulista muito organizado em campo e saiu de cabeça inchada do Pacaembu. Na bola, o time do interior dominou o Peixe e teve em Cassiano Bodini o nome do jogo. Além dele, Marcelo Macedo, de pênalti, e Rodolfo construíram o placar. Neymar fez o gol de honra do Santos, já nos acréscimos.",
+      "Ainda houve tempo para Cassiano Bodini, aos 41 minutos, ampliar: 3 a 0. A boa marcação do time do interior parou Neymar, que chegou a gerar a expulsão de Matheus Galdezani e, pouco depois, fazer o gol de honra do Peixe, com um belo chute de pé esquerdo, dando números finais ao placar: 3 a 1."
+    ]
+  },
+  {
+    "date": "2013-03-31",
+    "opponent": "Oeste FC",
+    "url": "https://ge.globo.com/jogo/campeonato-paulista-2013/31-03-2013/oeste-santos.html",
+    "paragraphs": [
+      "A fase que o camisa 11 do Santos atravessa é uma das piores de sua carreira. Sem marcar desde o dia 10 de fevereiro, quando fez o único gol de sua equipe na derrota por 3 a 1 para o Paulista de Jundiaí, Neymar chegou a ser vaiado por alguns torcedores dentro da Vila Belmiro, na última quinta-feira. De volta após os compromissos pela seleção brasileira, o atacante não correspondeu às expectativas e se mostrou inconformado com a insatisfação dos alvinegros.",
+      "No intervalo do jogo, o técnico Muricy Ramalho tentou dar mais movimentação ao Santos: com a saída do lateral-direito Bruno Peres, que sentiu dores, ele colocou Felipe Anderson. Logo em seu primeiro lance, ele recebeu passe de Neymar e fez bom cruzamento para a área, mas ninguém apareceu para completar. O Santos tinha a partida nas mãos, mas não sabia o que fazer com ela."
+    ]
+  },
+  {
+    "date": "2013-04-04",
+    "opponent": "AD São Caetano (SP)",
+    "url": "https://ge.globo.com/jogo/campeonato-paulista-2013/04-04-2013/santos-sao-caetano.html",
+    "paragraphs": [
+      "O Santos, em desvantagem no placar, preferiu tocar a bola para aguardar o melhor momento de entrar na defesa do time do ABC. Mas atrasou alguns lances que, se tivessem mais velocidade, poderiam acabar em perigo. Léo teve uma avenida pela esquerda. Em um de seus cruzamentos, Neymar quase marcou de cabeça.",
+      "E foi nos pés de Neymar que o Santos passou a dominar o campo de ataque. O Peixe criou várias jogadas em buscas do gol da virada. Em uma boa jogada iniciada pelo atacante, Léo recebeu na esquerda e cruzou na cabeça de André – substituto de Giva –, que mandou firme para boa de fesa de Fábio.",
+      "Justamente com Neymar o Santos teve mais uma jogada perigosa no segundo tempo. Após boa troca de passes, Montillo mandou para a área e o craque cabeceou rente à trave, aos 28. Dois minutos antes tinha sido a vez de Galhardo experimentar de longe e assustar Fábio. Só deu Peixe na segunda etapa. Com chutes de longe, de perto, cabeçadas, mas a equipe da Vila Belmiro não conseguiu sair com a vitória."
+    ]
+  },
+  {
+    "date": "2013-04-13",
+    "opponent": "União Barbarense FC (SP)",
+    "url": "https://ge.globo.com/jogo/campeonato-paulista-2013/13-04-2013/uniao-barbarense-santos.html",
+    "paragraphs": [
+      "Com a vitória assegurada e diante de um rival abatido e perdido taticamente em campo, o Santos só teve o trabalho de administrar o jogo. O que não significa que Peixe e Neymar tenham tirado o pé do acelerador. Com toques de efeito e liberdade para homens de meio e laterais aproveitarem a apatia do Barbarense, o Alvinegro sufocou ainda mais o adversário no campo de defesa."
+    ]
+  },
+  {
+    "date": "2013-04-17",
+    "url": "https://ge.globo.com/jogo/copa-do-brasil-2013/17-04-2013/santos-flamengo.html",
+    "error": "HTTPError"
+  }
+]

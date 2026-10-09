@@ -52,12 +52,13 @@
       "scope": "club_career_snapshot",
       "period": "2009–2026, duas passagens",
       "goals": 160,
-      "matches": null,
+      "matches": 278,
       "as_of": "2026-10-09",
       "complete_period": false,
       "source_url": "https://www.santosfc.com.br/santos-fc-busca-empate-contra-o-flamengo-em-noite-de-festa-na-vila-belmiro/",
       "body_parts": null,
-      "note": "Total de 160 informado pelo responsável pelo projeto em 09/10/2026. Fonte confirma dois gols em 08/10; partidas acumuladas pendentes de atualização."
+      "note": "Gols conforme informação do responsável pelo projeto. Partidas: 278 registros jogados pelo Santos no Transfermarkt, até 08/10/2026, sem seleções nem duplicatas.",
+      "matches_source_url": "https://www.transfermarkt.com/neymar/leistungsdatenverein/spieler/68290"
     },
     {
       "team": "Brasil",
