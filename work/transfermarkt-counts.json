@@ -1,0 +1,60 @@
+{
+  "Santos FC": {
+    "Not reported": 33,
+    "Left-footed shot": 11,
+    "Header": 3,
+    "Right-footed shot": 25,
+    "Penalty": 20,
+    "Solo run": 5,
+    "Chest": 1,
+    "Tap-in": 2,
+    "Direct free kick": 3,
+    "Direct corner": 1,
+    "Counter attack goal": 6
+  },
+  "Brazil": {
+    "Header": 2,
+    "Right-footed shot": 25,
+    "Long distance kick": 1,
+    "Penalty": 18,
+    "Left-footed shot": 9,
+    "Direct free kick": 3,
+    "Not reported": 1,
+    "Solo run": 1,
+    "Tap-in": 1
+  },
+  "Brazil U20": {
+    "Penalty": 1,
+    "Left-footed shot": 1,
+    "Direct free kick": 1,
+    "Right-footed shot": 1
+  },
+  "Brazil Olympic Team": {
+    "Header": 1,
+    "Direct free kick": 3,
+    "Penalty": 1,
+    "Tap-in": 1
+  },
+  "FC Barcelona": {
+    "Header": 4,
+    "Left-footed shot": 16,
+    "Right-footed shot": 42,
+    "Penalty": 10,
+    "Deflected shot on goal": 2,
+    "Tap-in": 2,
+    "Direct free kick": 5
+  },
+  "Paris Saint-Germain": {
+    "Right-footed shot": 32,
+    "Long distance kick": 1,
+    "Tap-in": 3,
+    "Direct free kick": 7,
+    "Left-footed shot": 22,
+    "Penalty": 21,
+    "Header": 4,
+    "Deflected shot on goal": 1
+  },
+  "Al-Hilal SFC": {
+    "Left-footed shot": 1
+  }
+}

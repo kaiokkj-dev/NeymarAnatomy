@@ -1,0 +1,74 @@
+{
+  "researched_on": "2026-10-09",
+  "status": "partial_research",
+  "current_career_total": null,
+  "records": [
+    {
+      "team": "Barcelona",
+      "scope": "club_official",
+      "period": "2013–2017",
+      "goals": 105,
+      "matches": 186,
+      "as_of": "2017-08-03",
+      "complete_period": true,
+      "source_url": "https://players.fcbarcelona.com/es/jugador/603-neymar-neymar-da-silva-santos-junior",
+      "body_parts": null
+    },
+    {
+      "team": "PSG",
+      "scope": "club_official",
+      "period": "2017–2023",
+      "goals": 118,
+      "matches": 173,
+      "as_of": "2023-08-15",
+      "complete_period": true,
+      "source_url": "https://en.psg.fr/teams/first-team/content/paris-saint-germain-thank-neymar-jr-a-club-legend",
+      "body_parts": null
+    },
+    {
+      "team": "Al-Hilal",
+      "scope": "club_official",
+      "period": "2023–2025",
+      "goals": 1,
+      "matches": 7,
+      "as_of": "2025-01-28",
+      "complete_period": true,
+      "source_url": "https://www.thenationalnews.com/sport/football/2025/01/28/neymar-the-astonishing-numbers-behind-failed-al-hilal-transfer/",
+      "body_parts": null
+    },
+    {
+      "team": "Santos",
+      "scope": "club_official",
+      "period": "2009–2013",
+      "goals": 136,
+      "matches": 225,
+      "as_of": "2013-05-26",
+      "complete_period": true,
+      "source_url": "https://www.santos.sp.gov.br/?q=noticia%2Fneymar-jr-mais-um-capitulo-historico-de-santos-nas-copas",
+      "body_parts": null
+    },
+    {
+      "team": "Santos",
+      "scope": "club_career_snapshot",
+      "period": "2009–2026, duas passagens",
+      "goals": 160,
+      "matches": null,
+      "as_of": "2026-10-09",
+      "complete_period": false,
+      "source_url": "https://www.santosfc.com.br/santos-fc-busca-empate-contra-o-flamengo-em-noite-de-festa-na-vila-belmiro/",
+      "body_parts": null,
+      "note": "Total de 160 informado pelo responsável pelo projeto em 09/10/2026. Fonte confirma dois gols em 08/10; partidas acumuladas pendentes de atualização."
+    },
+    {
+      "team": "Brasil",
+      "scope": "senior_international_snapshot",
+      "period": "Seleção principal até julho de 2026",
+      "goals": 80,
+      "matches": 130,
+      "as_of": "2026-07-30",
+      "complete_period": false,
+      "source_url": "https://www1.folha.uol.com.br/esporte/2026/07/neymar-se-aposenta-da-selecao-confira-numeros-do-camisa-10-pelo-brasil.shtml",
+      "body_parts": null
+    }
+  ]
+}

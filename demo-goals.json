@@ -1,0 +1,10 @@
+[
+ {"id":1,"date":"2011-07-27","team":"Santos","opponent":"Flamengo","competition":"Brasileirão","body_part":"right","method":"Bola rolando","minute":26,"title":"Drible, magia e gol","highlight_url":null,"source_url":null},
+ {"id":2,"date":"2013-09-24","team":"Barcelona","opponent":"Real Sociedad","competition":"La Liga","body_part":"left","method":"Bola rolando","minute":5,"title":"No lugar certo","highlight_url":null,"source_url":null},
+ {"id":3,"date":"2015-06-06","team":"Barcelona","opponent":"Juventus","competition":"Champions League","body_part":"right","method":"Bola rolando","minute":97,"title":"A noite da conquista","highlight_url":null,"source_url":null},
+ {"id":4,"date":"2016-08-20","team":"Brasil","opponent":"Alemanha","competition":"Jogos Olímpicos","body_part":"right","method":"Falta","minute":27,"title":"Um país em festa","highlight_url":null,"source_url":null},
+ {"id":5,"date":"2017-03-08","team":"Barcelona","opponent":"PSG","competition":"Champions League","body_part":"right","method":"Falta","minute":88,"title":"Acreditar até o fim","highlight_url":null,"source_url":null},
+ {"id":6,"date":"2017-03-08","team":"Barcelona","opponent":"PSG","competition":"Champions League","body_part":"right","method":"Pênalti","minute":91,"title":"A remontada continua","highlight_url":null,"source_url":null},
+ {"id":7,"date":"2020-01-01","team":"PSG","opponent":"Adversário de exemplo","competition":"Demonstração","body_part":"head","method":"Bola rolando","minute":35,"title":"Exemplo de gol de cabeça","highlight_url":null,"source_url":null},
+ {"id":8,"date":"2020-01-02","team":"PSG","opponent":"Adversário de exemplo","competition":"Demonstração","body_part":"left","method":"Bola rolando","minute":62,"title":"Exemplo com o pé esquerdo","highlight_url":null,"source_url":null}
+]
