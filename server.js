@@ -61,6 +61,14 @@ app.get("/api/goals", async (_req, res) => {
   }
 });
 app.use(express.static(path.join(root, "public")));
-app.listen(process.env.PORT || 3000, "127.0.0.1", () =>
-  console.log(`Neymar Anatomy: http://localhost:${process.env.PORT || 3000}`),
-);
+// A Vercel importa o app; o listener é usado somente ao executar localmente.
+export default app;
+if (
+  !process.env.VERCEL &&
+  process.argv[1] &&
+  path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)
+) {
+  app.listen(process.env.PORT || 3000, "127.0.0.1", () =>
+    console.log(`Neymar Anatomy: http://localhost:${process.env.PORT || 3000}`),
+  );
+}
