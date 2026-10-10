@@ -80,3 +80,20 @@ Os scripts são clássicos e compartilham os auxiliares de `core.js`. A ordem do
 - Dados e classificação dos gols: consulte `database/DADOS.md` e os scripts de importação. Editar o catálogo local não atualiza sozinho o Neon.
 
 A cascata CSS foi preservada para evitar alterações visuais. Os arquivos agora estão formatados, mas ainda contêm ajustes históricos que podem ser consolidados numa revisão específica de estilos.
+
+## Mapa 2D dos lances
+
+`public/shot-map.js` carrega `public/data/iconic-goals.json`. `renderShotMap()` filtra e monta os pontos; `chooseMoment()` seleciona um lance; `renderShotDetail()` monta seu cartão. Os estilos ficam em `public/shot-map.css`.
+
+Os filtros são locais à seção. O catálogo inclui gols olímpicos e não participa da soma de gols da carreira. As coordenadas x/y representam regiões aproximadas num campo esquemático (100 × 80), com ataque para cima. Não são medições de tracking nem uma auditoria quadro a quadro dos vídeos. Pontos muito próximos podem ter um pequeno deslocamento visual para facilitar a seleção; a lista numerada oferece uma alternativa aos pontos.
+
+Cada registro contém uma fonte do lance. O botão de vídeo abre uma busca específica no YouTube; não é um vídeo previamente validado. Antes de usar coordenadas como estatísticas de distância, elas precisam de revisão do vídeo e calibração do campo.
+
+## Rodapé
+
+O rodapé está no fim de `public/index.html`, com estilos em `public/footer.css`. Os links apontam para seções existentes. `#data-notes` é um painel nativo `details` com os critérios dos dados; o link correspondente em `navigation.js` abre o painel.
+
+### Quiz do Neymar
+
+public/quiz.js controla as cinco perguntas, a validação de cada resposta, as explicações com fontes e a pontuação final. renderQuiz monta a pergunta atual ou o resultado; o botão de jogar novamente reinicia a pontuação. public/quiz.css adapta as alternativas para desktop e celular. O quiz fica depois dos troféus e não exige conta.
+

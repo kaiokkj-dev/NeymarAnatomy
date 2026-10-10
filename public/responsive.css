@@ -874,3 +874,22 @@ html[data-theme="light"] #detail-path {
   color: var(--muted);
   margin: 10px 0 0;
 }
+.player-source-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  margin-top: 8px;
+  padding: 0;
+  color: var(--muted);
+  font-size: 11px;
+  text-decoration: none;
+}
+.player-source-link:hover {
+  color: var(--lime);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.player-source-link:focus-visible {
+  outline: 2px solid var(--lime);
+  outline-offset: 3px;
+}

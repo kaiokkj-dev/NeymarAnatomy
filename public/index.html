@@ -12,6 +12,9 @@
     <link rel="icon" type="image/svg+xml" href="anatomy-mark.svg" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="shot-map.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="quiz.css" />
     <script src="counters.js" defer></script>
     <!-- Scripts compartilhados vêm antes do coordenador app.js. -->
     <script src="core.js" defer></script>
@@ -21,6 +24,8 @@
     <script src="app.js" defer></script>
     <script src="player2d.js" defer></script>
     <script src="trophies.js" defer></script>
+    <script src="shot-map.js" defer></script>
+    <script src="quiz.js" defer></script>
     <script src="navigation.js" defer></script>
     <script src="preferences.js" defer></script>
   </head>
@@ -40,7 +45,7 @@
         <nav aria-label="Navegação principal">
           <a href="#overview" class="active" aria-current="location"
             >Visão geral</a
-          ><a href="#anatomy">Anatomia</a
+          ><a href="#anatomy">Anatomia</a><a href="#shot-map">Mapa dos gols</a
           ><a href="#goals">Gols &amp; momentos</a
           ><a href="#trophies">Troféus</a>
         </nav>
@@ -153,6 +158,13 @@
                 <span class="overview-kicker">ANATOMY</span>
                 <h1 id="overview-title">NEYMAR <span>JR.</span></h1>
                 <p>Atacante · Brasil · Camisa 10</p>
+                <a
+                  class="player-source-link"
+                  href="https://www.transfermarkt.com/neymar/profil/spieler/68290"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ver perfil no Transfermarkt ↗</a
+                >
               </div>
             </div>
             <a
@@ -341,6 +353,91 @@
           <p class="fineprint">Estatísticas dos registros disponíveis.</p>
         </div>
       </section>
+      <section
+        id="shot-map"
+        class="shot-map-section"
+        aria-labelledby="shot-map-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">CADA GOL, UM LUGAR</p>
+            <h2 id="shot-map-title">De onde saíram os gols.</h2>
+            <p class="shot-map-intro">
+              Explore uma seleção de lances marcantes.
+            </p>
+          </div>
+          <span id="shot-map-count" role="status">Carregando lances…</span>
+        </div>
+        <div class="shot-map-filters">
+          <label
+            >Time do lance<select id="shot-map-team">
+              <option value="all">Todos os times</option>
+            </select></label
+          >
+          <div
+            id="shot-map-methods"
+            role="group"
+            aria-label="Filtrar mapa por jogada"
+          >
+            <button type="button" data-method="all" aria-pressed="true">
+              Todos</button
+            ><button type="button" data-method="open" aria-pressed="false">
+              Bola rolando</button
+            ><button type="button" data-method="free" aria-pressed="false">
+              Falta</button
+            ><button type="button" data-method="penalty" aria-pressed="false">
+              Pênalti
+            </button>
+          </div>
+        </div>
+        <div class="shot-map-layout">
+          <div class="shot-map-field-panel">
+            <p class="shot-map-direction">↑ DIREÇÃO DO ATAQUE</p>
+            <div class="shot-map-pitch">
+              <svg
+                viewBox="0 0 100 80"
+                preserveAspectRatio="none"
+                aria-hidden="true"
+              >
+                <rect x="3" y="5" width="94" height="72" rx="1" />
+                <path
+                  d="M22 5v25h56V5M37 5v9h26V5M44 5V1h12v4M3 77h94M37 30a15 15 0 0 0 26 0M36 77a14 14 0 0 1 28 0"
+                />
+                <circle cx="50" cy="28" r="0.5" />
+              </svg>
+              <div
+                id="shot-map-points"
+                role="group"
+                aria-label="Escolher um gol no campo"
+              ></div>
+            </div>
+            <div class="shot-map-legend">
+              <span data-method="open">Bola rolando</span
+              ><span data-method="free">Falta</span
+              ><span data-method="penalty">Pênalti</span>
+            </div>
+            <p class="shot-map-note">
+              Posições aproximadas em um campo esquemático. Os pontos indicam a
+              região da finalização, não o início da jogada.
+            </p>
+          </div>
+          <article
+            id="shot-map-detail"
+            class="shot-map-detail"
+            aria-live="polite"
+          ></article>
+        </div>
+        <div
+          id="shot-map-moments"
+          class="shot-map-moments"
+          role="group"
+          aria-label="Escolher um lance marcante"
+        ></div>
+        <p class="shot-map-note">
+          Seleção editorial, sem alterar os totais da carreira. Inclui a seleção
+          olímpica. Os filtros desta seção não limitam a lista completa de gols.
+        </p>
+      </section>
       <section id="goals" class="goals-section">
         <div class="section-heading">
           <div>
@@ -425,6 +522,20 @@
           >
         </p>
       </section>
+      <section id="quiz" class="quiz-section" aria-labelledby="quiz-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">AGORA É COM VOCÊ</p>
+            <h2 id="quiz-title">Quanto você sabe sobre o Neymar?</h2>
+            <p class="quiz-description">
+              Cinco perguntas sobre os lances e as conquistas. Escolha sua
+              resposta e descubra a história.
+            </p>
+          </div>
+        </div>
+        <span id="quiz-progress" role="status"></span>
+        <div id="quiz-panel"></div>
+      </section>
     </main>
     <dialog id="detail-dialog">
       <div class="detail-heading">
@@ -440,13 +551,87 @@
         meia ou no pescoço.
       </p>
     </dialog>
-    <footer>
-      <a class="footer-identity" href="#" aria-label="Anatomy — início"
-        ><img src="anatomy-mark.svg" width="28" height="28" alt="" /><strong
-          >ANATOMY.</strong
-        ></a
-      ><span>PROJETO INDEPENDENTE · PORTFÓLIO</span
-      ><a href="#">Voltar ao topo ↑</a>
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-about">
+          <a
+            class="footer-identity"
+            href="#overview"
+            aria-label="Anatomy — início"
+            ><img src="anatomy-mark.svg" width="32" height="32" alt="" /><strong
+              >NEYMAR ANATOMY.</strong
+            ></a
+          >
+          <p>O jogo, parte por parte.</p>
+          <p class="footer-description">
+            Explore os gols, os lances e as conquistas que marcaram a carreira
+            de Neymar.
+          </p>
+          <span class="footer-project-tag">PROJETO INDEPENDENTE</span>
+        </div>
+        <nav class="footer-column" aria-label="Estatísticas no rodapé">
+          <h2>Dados &amp; estatísticas</h2>
+          <a href="#overview">Visão geral</a
+          ><a href="#anatomy">Anatomia dos gols</a
+          ><a href="#shot-map">Mapa dos gols</a
+          ><a href="#goals">Gols &amp; momentos</a>
+        </nav>
+        <nav class="footer-column" aria-label="Carreira no rodapé">
+          <h2>Carreira &amp; conquistas</h2>
+          <a href="#overview">Gols por time</a
+          ><a href="#anatomy">Assistências &amp; partidas</a
+          ><a href="#trophies">Troféus &amp; títulos</a>
+          <a href="#quiz">Quiz do Neymar</a>
+        </nav>
+        <div class="footer-column">
+          <h2>Sobre os dados</h2>
+          <p>
+            Fontes e datas acompanham os registros. A classificação dos gols
+            segue em conferência.
+          </p>
+          <a href="#data-notes">Critérios &amp; fontes ↓</a
+          ><a href="#overview">Voltar ao topo ↑</a>
+        </div>
+      </div>
+      <details id="data-notes" class="footer-data-notes">
+        <summary>
+          Como ler os números deste projeto <span aria-hidden="true">+</span>
+        </summary>
+        <div class="footer-methodology">
+          <p>
+            <strong>Totais e catálogo.</strong> Os totais de referência e os
+            gols catalogados podem diferir. Cada referência informa sua fonte e
+            data; a anatomia considera os registros classificados disponíveis.
+          </p>
+          <p>
+            <strong>Mapa dos gols.</strong> Seleção de lances marcantes,
+            incluindo a seleção olímpica. Posições e trajetórias são
+            ilustrativas e aproximadas.
+          </p>
+          <p>
+            <strong>Assistências e títulos.</strong> Os critérios podem variar
+            entre fontes. Os títulos seguem a referência de 30 conquistas
+            coletivas adotada no projeto.
+          </p>
+          <p>
+            <strong>Fontes dos lances.</strong> Consulte “Fonte do registro”,
+            “Fonte do lance” e os links dos cartões de títulos. Os botões de
+            busca de vídeos abrem pesquisas no YouTube.
+          </p>
+        </div>
+      </details>
+      <div class="footer-bottom">
+        <p>
+          © 2026 Neymar Anatomy · Projeto independente desenvolvido por
+          <a
+            class="footer-author"
+            href="https://github.com/kaiokkj-dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Kaio Henrique</a
+          >.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

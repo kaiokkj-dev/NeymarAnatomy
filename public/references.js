@@ -69,6 +69,17 @@ function renderReferences() {
     "GOLS CATALOGADOS";
   document.querySelector(".summary > div:last-child span").textContent =
     "JOGOS CATALOGADOS";
+  // O total da carreira vem da referência; a anatomia usa apenas o catálogo.
+  if (state.year === "all" && selected.length) {
+    el("total").textContent = referenceTotal;
+    document.querySelector(".summary > div:first-child span").textContent =
+      "GOLS DE REFERÊNCIA";
+    if (state.part === "all") {
+      el("selected-count").textContent = referenceTotal;
+      el("selected-percent").textContent =
+        `${catalog.length} gols catalogados para explorar a anatomia`;
+    }
+  }
   const completeAnatomy =
     state.year === "all" &&
     catalog.length === referenceTotal &&

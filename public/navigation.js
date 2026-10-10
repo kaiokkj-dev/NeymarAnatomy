@@ -32,3 +32,10 @@ window.addEventListener(
 );
 window.addEventListener("resize", updateNavigation);
 updateNavigation();
+
+// O link de critérios abre a explicação antes de navegar até ela.
+document
+  .querySelector('.footer-column a[href="#data-notes"]')
+  .addEventListener("click", () => {
+    document.getElementById("data-notes").open = true;
+  });
