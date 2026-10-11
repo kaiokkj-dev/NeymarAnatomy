@@ -1,39 +1,92 @@
-# Neymar Anatomy
+# ⚽ Neymar Anatomy
 
-Site de estatísticas e anatomia dos gols de Neymar, com Express, JavaScript e PostgreSQL no Neon.
+Um site interativo para explorar a carreira de Neymar Jr. por meio de seus gols, assistências, títulos e momentos marcantes.
 
-## Executar
+Projeto independente desenvolvido por **Kaio Henrique**.
 
-Requer Node.js 22 ou superior.
+## ✨ Funcionalidades
 
-```sh
+- **Visão geral da carreira** — totais de gols, assistências e partidas com fontes.
+- **Anatomia dos gols** — distribuição por pé direito, pé esquerdo, cabeça e outras partes do corpo.
+- **Filtros por time e ano** — explore diferentes fases da carreira.
+- **Mapa 2D interativo** — lances icônicos com animações ilustrativas dos chutes.
+- **Gols e momentos** — registros paginados com filtros por adversário e tipo de jogada.
+- **Troféus e títulos** — conquistas organizadas por time e temporada.
+- **Quiz do Neymar** — perguntas com pontuação, explicações e fontes.
+- **Três idiomas** — português, inglês e espanhol.
+- **Design responsivo** — interface adaptada para computador e celular.
+- **Tema claro e escuro**.
+
+## 🛠️ Tecnologias
+
+- HTML, CSS e JavaScript
+- Node.js e Express
+- PostgreSQL hospedado no Neon
+- Vercel
+
+## 🚀 Como executar
+
+Requer **Node.js 22 ou superior**.
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/kaiokkj-dev/NeymarAnatomy.git
+cd NeymarAnatomy
+```
+
+### 2. Instale as dependências
+
+```bash
 npm install
+```
+
+### 3. Configure o banco
+
+Copie `.env.example` para `.env` e preencha a variável `DATABASE_URL` com a conexão do Neon.
+
+O arquivo `.env` deve permanecer fora do Git.
+
+### 4. Inicie o servidor
+
+```bash
 npm start
 ```
 
-Abra http://localhost:3000. A configuração privada fica em `.env`, na raiz; `.env.example` é apenas o modelo. Sem banco configurado, o servidor usa `demo-goals.json`.
+Acesse **http://localhost:3000**.
 
-## Publicar na Vercel
+Sem conexão com o banco, a aplicação utiliza registros de demonstração.
 
-Importe o repositório usando a raiz do projeto (não a pasta `public`). Use o preset **Express**, sem sobrescrever Build Command ou Output Directory. A Vercel reconhece o export do `server.js`, executa `/api/goals` e `/api/career-reference` como backend e serve `public/` pela CDN. Não é necessário criar rotas duplicadas em `api/`.
+## 📊 Sobre os dados
 
-Cadastre `DATABASE_URL` em Environment Variables para Production e, se quiser testar previews, Preview. Use a conexão do Neon com SSL. A variável fica no servidor; não coloque seu valor no código ou em variáveis públicas. Depois de mudar variáveis na Vercel, faça um novo deploy.
+Os totais da carreira apresentam fontes e datas de referência. A classificação dos gols por parte do corpo está em conferência e pode conter registros ainda não classificados.
 
-Após publicar, confira a página inicial, `/api/goals` (modo `database`) e `/api/career-reference` (lista `records`). Sem `DATABASE_URL`, o site usa os gols de demonstração.
+Por isso, os totais de referência podem diferir da quantidade de gols catalogados.
 
-## Entender e editar o código
+As posições e trajetórias do mapa são ilustrativas e aproximadas. Os botões de vídeos abrem buscas no YouTube.
 
-- [Guia do código e das funções](docs/CODIGO.md)
-- [Dados, fontes e classificação](database/DADOS.md)
+A contagem de títulos segue os critérios documentados no projeto.
 
-O HTML do site está em `public/index.html`. Os numerosos HTML de `work/` são evidências da pesquisa, não páginas da aplicação. Veja [a finalidade de work](work/README.md).
+## 📁 Organização do projeto
 
-Para manter a formatação dos arquivos da aplicação:
+| Arquivo ou pasta | Função |
+| --- | --- |
+| `public/` | Interface, estilos, scripts e imagens |
+| `server.js` | Servidor Express e rotas de consulta ao banco |
+| `database/` | Documentação dos dados e arquivos de pesquisa |
+| `docs/CODIGO.md` | Explicação do código e das funções |
+| `work/` | Evidências e materiais de apoio da pesquisa |
 
-```sh
-npx prettier@3.6.2 --write "public/*.js" public/index.html public/style.css public/responsive.css server.js package.json
-```
+## ☁️ Publicação na Vercel
 
-## Assistências por time
+Importe o repositório utilizando o preset **Express** e a raiz do projeto.
 
-A interface mostra fontes independentes para gols e assistências. Os critérios podem divergir entre fontes; consulte `database/DADOS.md` para o estado atual da conferência. O script `work/import-assists-reference.mjs` importa as referências de `database/assists-research.json` e altera o banco.
+Configure `DATABASE_URL` nas variáveis de ambiente antes de publicar. Não é necessário definir Build Command ou Output Directory.
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Kaio Henrique**.
+
+[Meu GitHub](https://github.com/kaiokkj-dev)
+
+Projeto independente criado para explorar o futebol por meio de dados e experiências interativas.
