@@ -272,6 +272,10 @@ translations["Títulos coletivos"] = "Team titles";
 spanishTranslations["Títulos coletivos"] = "Títulos colectivos";
 translations["Títulos nesta seleção"] = "Titles in this selection";
 spanishTranslations["Títulos nesta seleção"] = "Títulos en esta selección";
+for (const [pt, en, es] of extraTranslations) {
+  translations[pt] = en;
+  spanishTranslations[pt] = es;
+}
 const reverseTranslations = Object.fromEntries(
   Object.entries(translations).map(([pt, en]) => [en, pt]),
 );
@@ -286,7 +290,7 @@ const reverseSpanish = Object.fromEntries(
   Object.entries(spanishTranslations).map(([pt, es]) => [es, pt]),
 );
 function translate(value) {
-  const trimmed = value.trim();
+  const trimmed = value.trim().replace(/\s+/g, " ");
   let canonical =
     reverseTranslations[trimmed] || reverseSpanish[trimmed] || trimmed;
   canonical = canonical
@@ -305,6 +309,109 @@ function translate(value) {
       : language === "es"
         ? spanishTranslations[canonical] || canonical
         : canonical;
+  if (language !== "pt") {
+    const en = language === "en";
+    result = result.replace(
+      /^Neymar contra (.+)$/,
+      en ? "Neymar against $1" : "Neymar contra $1",
+    );
+    if (canonical.includes(" × "))
+      result = canonical
+        .split(" × ")
+        .map((part) => translate(part))
+        .join(" × ");
+    result = result
+      .replace(
+        /^Pergunta (\d+) de (\d+)$/,
+        en ? "Question $1 of $2" : "Pregunta $1 de $2",
+      )
+      .replace(
+        /^(\d+) de (\d+) acertos$/,
+        en ? "$1 of $2 correct" : "$1 de $2 respuestas correctas",
+      )
+      .replace(
+        /^Resposta certa: (.+)$/,
+        (_, answer) =>
+          `${en ? "Correct answer" : "Respuesta correcta"}: ${translate(answer)}`,
+      )
+      .replace(
+        /^Página (\d+) de (\d+)$/,
+        en ? "Page $1 of $2" : "Página $1 de $2",
+      )
+      .replace(
+        /^(\d+)[–-](\d+) de (\d+) gols$/,
+        en ? "$1–$2 of $3 goals" : "$1–$2 de $3 goles",
+      )
+      .replace(
+        /^(\d+) de (\d+) lances$/,
+        en ? "$1 of $2 goals" : "$1 de $2 goles",
+      )
+      .replace(
+        /^(\d+) assistências ↗$/,
+        en ? "$1 assists ↗" : "$1 asistencias ↗",
+      )
+      .replace(
+        /^Até (.+) · Gols ↗$/,
+        en ? "As of $1 · Goals ↗" : "Hasta $1 · Goles ↗",
+      )
+      .replace(/ · Gols ↗$/, en ? " · Goals ↗" : " · Goles ↗")
+      .replace(
+        /^(\d+) gols catalogados para explorar a anatomia$/,
+        en
+          ? "$1 catalogued goals to explore by body part"
+          : "$1 goles registrados para explorar la anatomía",
+      )
+      .replace(
+        /^(\d+) gols identificados neste filtro/,
+        en
+          ? "$1 identified goals in this filter"
+          : "$1 goles identificados en este filtro",
+      )
+      .replace(
+        /classificação parcial/g,
+        en ? "partial classification" : "clasificación parcial",
+      )
+      .replace(
+        /^(\d+) de (\d+) gols com parte do corpo identificada · (\d+) sem classificação\./,
+        en
+          ? "$1 of $2 goals classified by body part · $3 unclassified."
+          : "$1 de $2 goles clasificados por parte del cuerpo · $3 sin clasificar.",
+      )
+      .replace(
+        /Total de referência:/g,
+        en ? "Reference total:" : "Total de referencia:",
+      )
+      .replace(
+        /Recorte do ano selecionado\./g,
+        en ? "Selected year only." : "Solo el año seleccionado.",
+      )
+      .replace(
+        /Contagens parciais\./g,
+        en ? "Partial counts." : "Recuentos parciales.",
+      )
+      .replace(
+        /Duas finalizações têm divergência entre fontes e seguem em revisão\./g,
+        en
+          ? "Two finishes have conflicting sources and remain under review."
+          : "Dos remates tienen fuentes contradictorias y siguen en revisión.",
+      )
+      .replace(
+        /^Soma das referências por time, com datas diferentes\. Anatomia: (\d+) gols com parte do corpo identificada em (\d+) registros catalogados\.$/,
+        en
+          ? "Sum of team references with different dates. Anatomy: $1 goals classified by body part out of $2 catalogued records."
+          : "Suma de referencias por equipo con fechas diferentes. Anatomía: $1 goles clasificados por parte del cuerpo de $2 registros.",
+      );
+    if (canonical.includes(" · "))
+      result = result
+        .split(" · ")
+        .map((part) => (part === canonical ? part : translate(part)))
+        .join(" · ");
+    result = result.replace(
+      /^Fonte: (.+), (.+)$/,
+      (_, title, team) =>
+        `${en ? "Source" : "Fuente"}: ${translate(title)}, ${translate(team)}`,
+    );
+  }
   if (language === "en")
     result = result
       .replace(/^(\d+) gols encontrados$/, "$1 goals found")
@@ -318,8 +425,10 @@ function translate(value) {
         /^(\d+)% dos gols neste filtro$/,
         "$1% de los goles en este filtro",
       );
-  return value.replace(trimmed, result);
+  return value.replace(value.trim(), result);
 }
+// Guarda o original por nó para alternar idiomas sem perder textos dinâmicos.
+const originalTexts = new WeakMap();
 function applyLanguage() {
   observer.disconnect();
   document.documentElement.lang = language === "pt" ? "pt-BR" : language;
@@ -341,7 +450,13 @@ function applyLanguage() {
       )
     )
       continue;
-    const value = translate(node.nodeValue);
+    const saved = originalTexts.get(node);
+    const original =
+      saved && node.nodeValue === saved.rendered
+        ? saved.original
+        : node.nodeValue;
+    const value = translate(original);
+    originalTexts.set(node, { original, rendered: value });
     if (value !== node.nodeValue) node.nodeValue = value;
   }
   document.querySelectorAll("[aria-label],[title]").forEach((node) => {
