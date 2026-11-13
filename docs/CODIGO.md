@@ -97,3 +97,35 @@ O rodapé está no fim de `public/index.html`, com estilos em `public/footer.css
 
 public/quiz.js controla as cinco perguntas, a validação de cada resposta, as explicações com fontes e a pontuação final. renderQuiz monta a pergunta atual ou o resultado; o botão de jogar novamente reinicia a pontuação. public/quiz.css adapta as alternativas para desktop e celular. O quiz fica depois dos troféus e não exige conta.
 
+## Ajude a classificar
+
+Seção `#review`: o visitante vê um gol com `body_part = 'unknown'`, abre o lance e vota em pé direito, pé esquerdo ou cabeça.
+
+| Arquivo | Responsabilidade |
+| --- | --- |
+| `lib/review.js` | Regra de consenso (`tally`), validação, armazenamento Postgres e em memória e as rotas. |
+| `public/review.js` | Carrega um gol quando a seção chega perto da tela, envia o voto e mostra o resultado. |
+| `public/review.css` | Estilos da seção, com as cores das partes iguais às barras da anatomia. |
+| `test/review.test.js` | Testes de regra, rotas e SQL (PGlite). |
+
+Rotas (`/api/review`):
+
+- `GET /next?skip=1,2` — próximo gol pendente que esta pessoa ainda não votou e que ainda não tem consenso, priorizando os com menos votos. Devolve também `stats` (pendentes, com consenso, votos).
+- `POST /:id/vote` com `{ "body_part": "right" | "left" | "head" }` — 201 com o placar; 400 entrada inválida; 404 gol inexistente; 409 voto repetido ou gol já classificado com fonte; 429 acima de 30 votos por hora no mesmo endereço.
+- `GET /consensus` — gols com consenso, para conferir com fonte antes de mudar a base oficial.
+
+Regras:
+
+- Consenso: pelo menos 3 votos e 70% na opção mais votada (`MIN_VOTES`, `MIN_SHARE`).
+- Os votos ficam em `goal_votes` e nunca alteram `goals.body_part`.
+- Identidade anônima: um cookie aleatório `na_voter`. O banco guarda só HMAC-SHA256 do cookie e do IP com `VOTE_SECRET`.
+- Com `DATABASE_URL` sem `VOTE_SECRET`, a seção fica desativada (503). Sem banco, os votos ficam em memória sobre a demonstração e somem ao reiniciar.
+
+## Relógio dos gols e comparar fases
+
+Seção `#patterns`, entre a anatomia e o mapa dos gols. `public/patterns.js` lê `state.goals` depois do evento `anatomy-ready`. Os estilos ficam em `public/patterns.css`.
+
+- **Relógio:** linha do tempo com 18 colunas de 5 minutos e uma coluna 90'+ (acréscimos e prorrogação). Cada coluna empilha as cores da parte do corpo e mostra o detalhe ao passar o mouse ou com Tab. A frase do topo usa o bloco de 15 minutos com mais gols. Os escudos filtram por time.
+- **Comparar fases:** confronto com escudos e gráfico espelhado (time A para a esquerda, time B para a direita) com pé direito, pé esquerdo, cabeça (em % dos gols com parte do corpo), pênaltis e 2º tempo (em % do total). As frases mostram até duas diferenças de 5 pontos ou mais.
+- **Idiomas:** os textos dessas duas caixas são gerados no próprio módulo (pt, en, es). Os containers têm `data-i18n-self`, que `preferences.js` pula na tradução automática. O módulo redesenha quando o idioma muda de fato.
+

@@ -2,9 +2,12 @@ import express from "express";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { readFile } from "node:fs/promises";
+import { randomBytes } from "node:crypto";
 import { neon } from "@neondatabase/serverless";
+import { reviewRouter, postgresStore, memoryStore } from "./lib/review.js";
 const root = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
+app.disable("x-powered-by");
 app.get("/api/career-reference", async (_req, res) => {
   try {
     if (!process.env.DATABASE_URL) return res.json({ records: [] });
@@ -60,6 +63,28 @@ app.get("/api/goals", async (_req, res) => {
       });
   }
 });
+// "Ajude a classificar": com banco, votos no Postgres; sem banco, votos em memória sobre a demonstração.
+let demoStore;
+if (process.env.DATABASE_URL && !process.env.VOTE_SECRET)
+  console.warn("VOTE_SECRET não configurado: a conferência coletiva fica desativada.");
+app.use(
+  "/api/review",
+  reviewRouter({
+    secret: process.env.VOTE_SECRET || randomBytes(32).toString("hex"),
+    secureCookie: Boolean(process.env.VERCEL),
+    getStore: async () => {
+      if (process.env.DATABASE_URL) {
+        if (!process.env.VOTE_SECRET) return null;
+        const sql = neon(process.env.DATABASE_URL);
+        return postgresStore((text, params) => sql.query(text, params));
+      }
+      demoStore ??= memoryStore(
+        JSON.parse(await readFile(path.join(root, "demo-goals.json"), "utf8")),
+      );
+      return demoStore;
+    },
+  }),
+);
 app.use(express.static(path.join(root, "public")));
 // A Vercel importa o app; o listener é usado somente ao executar localmente.
 export default app;

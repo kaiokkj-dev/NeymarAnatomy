@@ -29,10 +29,10 @@ function syncYearFilter() {
   select.value = state.year;
 }
 const teamIcons = {
-  Santos: "club-santos-coroa.png",
-  Barcelona: "club-barcelona.png",
-  PSG: "club-psg.png",
-  Brasil: "club-brasil.png",
+  Santos: "club-santos-coroa.webp",
+  Barcelona: "club-barcelona.webp",
+  PSG: "club-psg.webp",
+  Brasil: "club-brasil.webp",
   "Al-Hilal": "club-al-hilal.svg",
 };
 function teamIcon(team) {

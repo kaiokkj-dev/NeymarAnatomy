@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="shot-map.css" />
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="quiz.css" />
+    <link rel="stylesheet" href="review.css" />
+    <link rel="stylesheet" href="patterns.css" />
     <script src="counters.js" defer></script>
     <!-- Scripts compartilhados vêm antes do coordenador app.js. -->
     <script src="core.js" defer></script>
@@ -26,6 +28,8 @@
     <script src="trophies.js" defer></script>
     <script src="shot-map.js" defer></script>
     <script src="quiz.js" defer></script>
+    <script src="review.js" defer></script>
+    <script src="patterns.js" defer></script>
     <script src="navigation.js" defer></script>
     <script src="translations-extra.js" defer></script>
     <script src="preferences.js" defer></script>
@@ -149,7 +153,7 @@
             <div class="hero-identity">
               <div class="hero-portrait">
                 <img
-                  src="neymar-avatar-real.png"
+                  src="neymar-avatar-real.webp"
                   alt="Retrato fotográfico de Neymar"
                   width="104"
                   height="104"
@@ -174,7 +178,7 @@
               target="_blank"
               rel="noopener noreferrer"
               ><img
-                src="club-santos-coroa.png"
+                src="club-santos-coroa.webp"
                 alt="Escudo do Santos"
                 width="36"
                 height="36" /><span
@@ -250,7 +254,7 @@
           <div class="player-frame">
             <img
               class="player"
-              src="neymar-croacia-2022.png"
+              src="neymar-croacia-2022.webp"
               alt="Neymar comemorando o gol contra a Croácia em 2022, recorte preparado por IA a partir de fotografia"
             /><svg
               class="body-map"
@@ -352,6 +356,34 @@
             </button>
           </div>
           <p class="fineprint">Estatísticas dos registros disponíveis.</p>
+        </div>
+      </section>
+      <section
+        id="patterns"
+        class="patterns-section"
+        aria-labelledby="patterns-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">QUANDO E COMO</p>
+            <h2 id="patterns-title">O relógio e as fases.</h2>
+          </div>
+        </div>
+        <p class="patterns-intro">
+          Em que minuto Neymar mais marca e como o jeito de fazer gol mudou de
+          um time para outro, a partir dos gols catalogados.
+        </p>
+        <div class="patterns-grid">
+          <article class="patterns-card">
+            <h3>Relógio dos gols</h3>
+            <p>Os gols ao longo da partida, de 5 em 5 minutos, com a parte do corpo de cada um.</p>
+            <div id="clock-chart" data-i18n-self></div>
+          </article>
+          <article class="patterns-card">
+            <h3>Comparar fases</h3>
+            <p>Escolha dois times e veja o que muda no jeito de fazer gol.</p>
+            <div id="compare-body" data-i18n-self></div>
+          </article>
         </div>
       </section>
       <section
@@ -483,6 +515,34 @@
         </div>
       </section>
       <section
+        id="review"
+        class="review-section"
+        aria-labelledby="review-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">CONFERÊNCIA COLETIVA</p>
+            <h2 id="review-title">Ajude a classificar os gols.</h2>
+            <p class="review-description">
+              Alguns gols ainda não têm a parte do corpo identificada nas
+              fontes. Veja o lance e diga se foi de pé direito, pé esquerdo ou
+              cabeça.
+            </p>
+          </div>
+          <div class="review-stats" aria-live="polite">
+            <div><strong id="review-pending">—</strong><span>Pendentes</span></div>
+            <div><strong id="review-consensus">—</strong><span>Com consenso</span></div>
+            <div><strong id="review-votes">—</strong><span>Votos</span></div>
+          </div>
+        </div>
+        <div id="review-panel"></div>
+        <p class="review-note">
+          Os votos não mudam a classificação oficial. Um gol com pelo menos 3
+          votos e 70% de concordância fica marcado como consenso da comunidade
+          e passa por conferência com fonte antes de entrar nos números.
+        </p>
+      </section>
+      <section
         id="trophies"
         class="trophies-section"
         aria-labelledby="trophies-title"
@@ -544,7 +604,7 @@
         <button id="close-detail" aria-label="Fechar detalhe">×</button>
       </div>
       <svg id="detail-svg" aria-label="Região ampliada com contorno">
-        <image href="neymar-croacia-2022.png" width="1024" height="1536" />
+        <image href="neymar-croacia-2022.webp" width="1024" height="1536" />
         <path id="detail-path" />
       </svg>
       <p>
@@ -574,8 +634,10 @@
           <h2>Dados &amp; estatísticas</h2>
           <a href="#overview">Visão geral</a
           ><a href="#anatomy">Anatomia dos gols</a
+          ><a href="#patterns">Relógio &amp; fases</a
           ><a href="#shot-map">Mapa dos gols</a
-          ><a href="#goals">Gols &amp; momentos</a>
+          ><a href="#goals">Gols &amp; momentos</a
+          ><a href="#review">Ajude a classificar</a>
         </nav>
         <nav class="footer-column" aria-label="Carreira no rodapé">
           <h2>Carreira &amp; conquistas</h2>

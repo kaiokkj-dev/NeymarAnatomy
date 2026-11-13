@@ -446,7 +446,7 @@ function applyLanguage() {
     const node = walker.currentNode;
     if (
       node.parentElement.closest(
-        "script,style,#language,.profile-brand-text strong,.footer-identity",
+        "script,style,#language,.profile-brand-text strong,.footer-identity,[data-i18n-self]",
       )
     )
       continue;

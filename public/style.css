@@ -1233,7 +1233,7 @@ html {
   flex-shrink: 0;
   border-radius: 50%;
   border: 1px solid #b7f36b55;
-  background: #273128 url("neymar-brasil-2016.png") 50% 15%/130px auto no-repeat;
+  background: #273128 url("neymar-brasil-2016.webp") 50% 15%/130px auto no-repeat;
 }
 .avatar-mark {
   position: absolute;
@@ -1442,19 +1442,19 @@ html {
 }
 
 .profile-avatar {
-  background-image: url("neymar.png");
+  background-image: url("neymar.webp");
   background-size: 180px auto;
   background-position: 50% 0;
 }
 
 .profile-avatar {
-  background: #273128 url("neymar.png") 50% 0/140px auto no-repeat;
+  background: #273128 url("neymar.webp") 50% 0/140px auto no-repeat;
   overflow: hidden;
   border: 1px solid #52683b;
 }
 
 .profile-avatar {
-  background: #253029 url("neymar-avatar-real.png") center center/contain
+  background: #253029 url("neymar-avatar-real.webp") center center/contain
     no-repeat;
 }
 

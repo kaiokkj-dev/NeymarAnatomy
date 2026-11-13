@@ -1,0 +1,434 @@
+/* Relógio dos gols e comparação entre fases. */
+.patterns-section {
+  margin-top: 56px;
+  scroll-margin-top: 130px;
+}
+.patterns-intro {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.7;
+  max-width: 640px;
+  margin: 0 0 22px;
+}
+.patterns-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  gap: 18px;
+  align-items: start;
+}
+.patterns-card {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--panel);
+}
+.patterns-card h3 {
+  margin: 0 0 4px;
+  font-family: "Barlow Condensed", Impact, sans-serif;
+  font-size: 26px;
+  letter-spacing: 0.01em;
+}
+.patterns-card > p {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.patterns-card label {
+  display: grid;
+  gap: 6px;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.patterns-card select {
+  min-width: 150px;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--white);
+  font-size: 13px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+/* Relógio: linha do tempo da partida */
+.clock-teams {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.clock-team {
+  display: grid;
+  place-items: center;
+  min-width: 42px;
+  height: 42px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--white);
+  font-size: 12px;
+}
+.clock-team img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.clock-team[aria-pressed="true"] {
+  border-color: var(--lime);
+  box-shadow: 0 0 0 1px var(--lime) inset;
+}
+.patterns-headline {
+  margin: 18px 0 14px;
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+.timeline {
+  position: relative;
+  padding-bottom: 22px;
+}
+.timeline-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 190px;
+  padding: 0 0 2px;
+  border-bottom: 1px solid var(--line);
+  background: repeating-linear-gradient(0deg, transparent 0 46px, #ffffff08 46px 47px);
+}
+.timeline-col {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.timeline-col.after-break {
+  margin-left: 8px;
+}
+.timeline-col.extra {
+  margin-left: 6px;
+}
+.timeline-stack {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  min-height: 2px;
+  border-radius: 4px 4px 1px 1px;
+  overflow: hidden;
+  transition: transform 0.15s, filter 0.15s;
+  transform-origin: bottom;
+}
+.timeline-seg {
+  display: block;
+  flex-basis: 0;
+}
+.timeline-col:hover .timeline-stack,
+.timeline-col.active .timeline-stack,
+.timeline-col:focus-visible .timeline-stack {
+  filter: brightness(1.2);
+  transform: scaleX(1.12);
+}
+.timeline-col:focus-visible {
+  outline: 2px solid var(--lime);
+  outline-offset: 2px;
+}
+.timeline-break {
+  position: absolute;
+  top: -4px;
+  bottom: 22px;
+  border-left: 1px dashed var(--muted);
+  padding-left: 6px;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  pointer-events: none;
+}
+.timeline-axis {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 18px;
+}
+.timeline-axis span {
+  position: absolute;
+  transform: translateX(-50%);
+  font-size: 11px;
+  color: var(--muted);
+}
+.timeline-axis span:first-child {
+  transform: none;
+}
+.timeline-detail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 14px;
+  min-height: 44px;
+  margin-top: 8px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: var(--bg);
+  font-size: 13px;
+}
+.timeline-detail .muted {
+  color: var(--muted);
+  font-size: 12px;
+}
+.detail-part,
+.timeline-legend > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.detail-part i,
+.timeline-legend i {
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+}
+.timeline-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  margin-top: 12px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.timeline-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 14px;
+}
+.timeline-stats div {
+  display: grid;
+  gap: 2px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--bg);
+}
+.timeline-stats strong {
+  font-family: "Barlow Condensed", Impact, sans-serif;
+  font-size: 26px;
+  line-height: 1;
+  color: var(--lime);
+}
+.timeline-stats span {
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* Confronto */
+.versus-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  padding: 18px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #c6f65b14, transparent 40%, transparent 60%, #5dc4ef14), var(--bg);
+}
+.versus-side {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  text-align: center;
+}
+.versus-crest {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--panel);
+  border: 2px solid var(--line);
+}
+.side-a .versus-crest {
+  border-color: var(--lime);
+}
+.side-b .versus-crest {
+  border-color: #5dc4ef;
+}
+.versus-crest img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+.versus-side select {
+  max-width: 100%;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+.versus-total {
+  font-size: 11px;
+  color: var(--muted);
+}
+.versus-mid {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+}
+.versus-x {
+  font-family: "Barlow Condensed", Impact, sans-serif;
+  font-size: 34px;
+  line-height: 1;
+  color: var(--muted);
+}
+.versus-swap {
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--panel);
+  color: var(--white);
+}
+.versus-swap:hover {
+  border-color: var(--lime);
+}
+.butterfly {
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+}
+.butterfly-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 92px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+}
+.bf-label {
+  text-align: center;
+  font-size: 12px;
+  color: var(--muted);
+}
+.bf-side {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bf-a {
+  flex-direction: row;
+}
+.bf-a .bf-track {
+  display: flex;
+  justify-content: flex-end;
+}
+.bf-b {
+  flex-direction: row-reverse;
+}
+.bf-track {
+  flex: 1;
+  height: 16px;
+  border-radius: 4px;
+  background: var(--bg);
+  overflow: hidden;
+}
+.bf-fill {
+  display: block;
+  height: 100%;
+  background: var(--lime);
+  opacity: 0.8;
+}
+.bf-a .bf-fill {
+  border-radius: 4px 0 0 4px;
+}
+.bf-b .bf-fill {
+  background: #5dc4ef;
+  border-radius: 0 4px 4px 0;
+}
+.bf-side b {
+  width: 38px;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--muted);
+}
+.bf-a b {
+  text-align: left;
+}
+.bf-b b {
+  text-align: right;
+}
+.bf-side b.lead {
+  color: var(--white);
+}
+.compare-insights {
+  display: grid;
+  gap: 8px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.compare-insights li {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border-left: 3px solid var(--lime);
+  background: var(--bg);
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.compare-insights li.from-b {
+  border-left-color: #5dc4ef;
+}
+.compare-insights li.warn {
+  border-left-color: #f1b84e;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--muted);
+}
+.compare-note {
+  margin: 14px 0 0;
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+@media (max-width: 1000px) {
+  .patterns-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 560px) {
+  .patterns-card {
+    padding: 18px;
+  }
+  .timeline-bars {
+    height: 150px;
+    gap: 2px;
+  }
+  .timeline-col.after-break {
+    margin-left: 5px;
+  }
+  .timeline-axis span {
+    font-size: 10px;
+  }
+  .butterfly-row {
+    grid-template-columns: minmax(0, 1fr) 70px minmax(0, 1fr);
+    gap: 6px;
+  }
+  .bf-side b {
+    width: 32px;
+    font-size: 12px;
+  }
+  .versus-crest {
+    width: 52px;
+    height: 52px;
+  }
+}

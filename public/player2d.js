@@ -6,7 +6,7 @@ const regionNames = {
   left: "Pé esquerdo",
 };
 const initialEra = {
-  image: "neymar-croacia-2022.png",
+  image: "neymar-croacia-2022.webp",
   width: 1024,
   height: 1536,
   viewport: [0, 160, 1024, 1200],
